@@ -1,0 +1,68 @@
+body {
+  background: gray;
+  margin: 0;
+}
+
+.container {
+  padding: 2em 5em;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+header {
+  height: 40em;
+}
+
+.header-menu {
+  position: relative;
+  top: 2em;
+  background: #ffffff;
+}
+
+.header-menu-container {
+  width: 80%;
+  margin: auto;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.header-menu-container > div {
+  position: relative;
+  font-size: 1.5em;
+  min-width: 6em;
+}
+
+.header-menu-container .header-logo {
+  font-size: 3em;
+}
+
+.header-menu-badge {
+  width: 1em;
+  height: 1em;
+  padding: 0.1em;
+  text-align: center;
+  border-radius: 50%;
+  background: red;
+  color: #ffffff;
+  position: absolute;
+  left: -1em;
+  top: 0;
+}
+
+footer {
+  font-size: 1.1em;
+}
