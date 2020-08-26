@@ -89,34 +89,15 @@
     width: 30%;
   }
   
-  .about-more-title {
-    font-size: 2em;
-    color: var(--main-green-color);
-  }
-  
-  .about-more-subtitle {
-    font-size: 2em;
-    padding: 1em;
-  }
-  
   .about-more-description {
     margin-bottom: 1em;
   }
   
   /* RATE US */
 
-  .rate-us-title {
-    font-size: 2em;
-    color: var(--main-green-color);
-  }
-
   .rate-us-item {
     width: 30%;
     padding: 0 3em;
-  }
-
-  .rate-us-item-title {
-    color: var(--main-green-color);
   }
 
  /* FEEDBACK */
@@ -127,12 +108,6 @@
   }
    
   /* ADVERTISING BLOCK */
-
-  .advertising-block-section img {
-      
-    /* background-color: var(--main-green-color); */
-    /* height: 40vh; */
-  }
 
   .advertising-block-container img {
     width: 100%;
