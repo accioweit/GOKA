@@ -1,40 +1,39 @@
 .home-about-1-bg {
   height: 2em;
-  background-position: bottom;
-  background-size: 100vw;
+  background-size: cover;
   background-image: url('../../images/home-about-1-about-more-bg.jpg');
 }
 
 .header-home-about-1-bg {
+  height: 60vh;
   background-image: url('../../images/home-about-1-header.png');
 }
 
-.header-home-about-1-header-titles {
-  line-height: 2em;
-  color: #fff;
-  font-size: 7em;
-  padding: 10%;
+.home-about-1-header-title {
+  height: 100%;
+  color: #ffffff;
+  font-size: 5em;
+}
+
+.home-about-1-header-title div {
+  padding: 1em;
 }
 
 .footer-home-about-1 {
   color: #ffffff;
   background-image: url('../../images/home-about-1-about-more-bg.jpg');
   background-position: bottom;
-  background-size: 100vw;
+  background-size: 100% auto;
 }
 
 /* ABOUT SECTION */
 
-.about-section {
-  background: #ffffff;
-}
-
 .about-container-image {
-  height: 30vh;
+  height: 25vh;
   width: 100%;
   position: relative;
-  top: -20vh;
-  margin-bottom: -22vh;
+  top: -18vh;
+  margin-bottom: -20vh;
 }
 
 .about-container-image img {
@@ -48,12 +47,11 @@
 
 .about-description {
   padding: 0 0 2em 0;
-  font-size: 1.3em;
 }
 
 .about-title {
-  font-size: 4em;
   padding: 1em 0;
+  font-size: 4em;
   color: var(--main-green-color);
 }
 
@@ -72,7 +70,6 @@
 
 .about-product-description-title {
   font-weight: 600;
-  font-size: 2em;
 }
 
 .about-product-description {
@@ -96,16 +93,42 @@
   width: 30%;
 }
 
-.about-more-title {
-  font-size: 2em;
-}
-
 .about-more-subtitle {
-  font-size: 2em;
   color: var(--main-green-color);
   padding: 1em;
 }
 
 .about-more-description {
   margin-bottom: 1em;
+}
+
+/* INGREDIENTS SECTION */
+
+.ingredients-section {
+  padding-left: 5em;
+}
+
+.ingredients-desctiption {
+  width: 50vw;
+}
+
+.ingredients-image {
+  width: 40vw;
+  height: 40vw;
+  overflow: hidden;
+  margin-left: 2em;
+  background-image: url('../../images/home-about-ingredients.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ingredients-title {
+  font-size: 3em;
+}
+
+.ingredients-subtitle {
+  font-size: 3em;
+  line-height: 2em;
+  color: var(--main-green-color);
 }

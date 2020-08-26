@@ -1,7 +1,7 @@
 body {
-  background: gray;
   margin: 0;
   line-height: 2em;
+  font-size: 1.3em;
 }
 
 .container {
@@ -28,25 +28,25 @@ body {
   flex-wrap: wrap;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .header-menu {
   background: #ffffff;
+  font-size: 1.5em;
 }
 
 .header-menu-container {
   width: 80%;
   margin: auto;
-  padding: 2em 0;
+  padding: 1.2em 0;
   text-align: center;
 }
 
 .header-menu-container > div {
   position: relative;
-  font-size: 1.5em;
   min-width: 6em;
-}
-
-.header-menu-container .header-logo {
-  font-size: 3em;
 }
 
 .header-menu-badge {
@@ -63,11 +63,12 @@ body {
 }
 
 footer {
-  font-size: 1.2em;
+  height: 2em;
 }
 
 footer .container {
-  padding: 2em 5em;
+  /* height:2em */
+  padding: 0 5em;
 }
 
 .text-center {
