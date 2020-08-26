@@ -1,8 +1,111 @@
-.header-home-about-1 {
-  background: rgb(1, 65, 1);
+.home-about-1-bg {
+  height: 2em;
+  background-position: bottom;
+  background-size: 100vw;
+  background-image: url('../../images/home-about-1-about-more-bg.jpg');
+}
+
+.header-home-about-1-bg {
+  background-image: url('../../images/home-about-1-header.png');
+}
+
+.header-home-about-1-header-titles {
+  line-height: 2em;
+  color: #fff;
+  font-size: 7em;
+  padding: 10%;
 }
 
 .footer-home-about-1 {
-  background: rgb(1, 65, 1);
   color: #ffffff;
+  background-image: url('../../images/home-about-1-about-more-bg.jpg');
+  background-position: bottom;
+  background-size: 100vw;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+  background: #ffffff;
+}
+
+.about-container-image {
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  top: -20vh;
+  margin-bottom: -22vh;
+}
+
+.about-container-image img {
+  height: 100%;
+  width: auto;
+}
+
+.about-container {
+  width: 80%;
+}
+
+.about-description {
+  padding: 0 0 2em 0;
+  font-size: 1.3em;
+}
+
+.about-title {
+  font-size: 4em;
+  padding: 1em 0;
+  color: var(--main-green-color);
+}
+
+.about-products-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px 1px;
+  grid-template-areas: '. .' '. .' '. .';
+}
+
+.about-products-container > .about-product {
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid var(--main-green-color);
+}
+
+.about-product-description-title {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.about-product-description {
+  width: 55%;
+}
+
+.about-product-image {
+  margin-left: 1em;
+  width: 40%;
+  height: 100%;
+  background: var(--main-green-color);
+}
+
+/* ABOUT MORE SECTION */
+
+.about-more-section {
+  background-image: url('../../images/home-about-1-about-more-bg.jpg');
+}
+
+.about-more-section .container {
+  width: 30%;
+}
+
+.about-more-title {
+  font-size: 2em;
+}
+
+.about-more-subtitle {
+  font-size: 2em;
+  color: var(--main-green-color);
+  padding: 1em;
+}
+
+.about-more-description {
+  margin-bottom: 1em;
 }

@@ -1,10 +1,11 @@
 body {
   background: gray;
   margin: 0;
+  line-height: 2em;
 }
 
 .container {
-  padding: 2em 5em;
+  padding: 5em;
 }
 
 .flex {
@@ -19,17 +20,15 @@ body {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-header {
-  height: 40em;
-}
-
 .header-menu {
-  position: relative;
-  top: 2em;
   background: #ffffff;
 }
 
@@ -64,5 +63,38 @@ header {
 }
 
 footer {
-  font-size: 1.1em;
+  font-size: 1.2em;
+}
+
+footer .container {
+  padding: 2em 5em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+button {
+  border: 0;
+  color: #ffffff;
+  padding: 0.5em;
+  border-radius: 3px;
+}
+
+.btn-green {
+  background: var(--main-green-color);
+}
+
+.btn-gray {
+  background: var(--main-gray-color);
+}
+
+.background-image-position {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
