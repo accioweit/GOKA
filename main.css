@@ -28,6 +28,10 @@ body {
   flex-wrap: wrap;
 }
 
+.direction-column {
+  flex-direction: column;
+}
+
 .header-menu {
   background: #ffffff;
 }
