@@ -20,6 +20,10 @@ body {
   align-items: center;
 }
 
+.align-items-end {
+  align-items: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }

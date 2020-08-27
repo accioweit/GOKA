@@ -109,8 +109,16 @@
    
   /* ADVERTISING BLOCK */
 
-  .advertising-block-container img {
-    width: 100%;
+  .advertising-block-section {
+    height: 60vh;
+    background-image: url('../../images/home-about-2-advertising-block.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .advertising-block-container {
+    height: 100%;
+    padding: 0 10% 0 50%;
   }
 
   /* FEEDBACK */
