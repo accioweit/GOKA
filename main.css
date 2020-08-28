@@ -116,3 +116,7 @@ button {
 .green {
   color: var(--main-green-color);
 }
+
+.white {
+  color: #ffffff;
+}

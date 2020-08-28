@@ -125,5 +125,9 @@
 
   .feedback-section {
     background-color: var(--main-green-color);
-    height: 40vh;
+    height: 60vh;
+  }
+
+  .feedback-left-container, .feedback-right-container {
+    width: 30%;
   }
