@@ -12,6 +12,10 @@ body {
   display: flex;
 }
 
+.flex-inline {
+  display: inline-flex;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -34,6 +38,10 @@ body {
 
 .flex-column {
   flex-direction: column;
+}
+
+.initial-header {
+  height: 2em;
 }
 
 .header-menu {
@@ -92,10 +100,22 @@ button {
 
 .btn-green {
   background: var(--main-green-color);
+  color: #ffffff;
 }
 
 .btn-gray {
   background: var(--main-gray-color);
+  color: #ffffff;
+}
+
+.btn-gold {
+  background: var(--main-gold-color);
+  color: #ffffff;
+}
+
+.btn-red {
+  background: var(--main-red-color);
+  color: #ffffff;
 }
 
 .background-image-position {
@@ -113,6 +133,10 @@ button {
   font-size: 2em;
 }
 
-.green {
-  color: var(--main-green-color);
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
