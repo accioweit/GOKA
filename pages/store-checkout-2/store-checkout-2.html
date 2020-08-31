@@ -1,0 +1,211 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./store-checkout-2.css" />
+    <link rel="stylesheet" type="text/css" href="../../main.css" />
+    <link rel="stylesheet" type="text/css" href="../../colors.css" />
+    <link rel="stylesheet" type="text/css" href="../../custom-checkbox.css" />
+    <title>Store & Checkout</title>
+  </head>
+  <body>
+    <header>
+      <div class="initial-header store-checkout-2-initial-header"></div>
+      <div class="store-checkout-2-logo text-center">GOKA</div>
+    </header>
+
+    <!-- INFO & ITEMS -->
+
+    <section>
+      <div class="container">
+        <div class="store-checkout-2-navigation uppercase flex justify-center">
+          <div class="navigation-prev border-radius-left">cart</div>
+          <div class="navigation-active">information</div>
+          <div class="navigation-next">shipment</div>
+          <div class="navigation-next opacity-07 border-radius-right">
+            payment
+          </div>
+        </div>
+
+        <div
+          class="container flex justify-center store-checkout-2-information-container"
+        >
+          <div class="store-checkout-2-information flex-basis-50">
+            <div>
+              <div class="store-checkout-title">contact information</div>
+              <input
+                class="store-checkout-input"
+                type="text"
+                name="email"
+                id="contact-information-email"
+                placeholder="email"
+              />
+              <label
+                class="checkbox-container store-checkout-2-information-checkbox"
+                ><span> Keep me up to date on news and exclusive offers </span>
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+              <div class="store-checkout-title">shipping address</div>
+              <div class="flex">
+                <input
+                  class="store-checkout-input margin-right-1"
+                  type="text"
+                  name="firstname"
+                  id="contact-information-firstname"
+                  placeholder="first name"
+                />
+                <input
+                  class="store-checkout-input"
+                  type="text"
+                  name="lastname"
+                  id="contact-information-lastname"
+                  placeholder="last name"
+                />
+              </div>
+              <input
+                class="store-checkout-input margin-top-1"
+                type="text"
+                name="address"
+                id="contact-information-address"
+                placeholder="address"
+              />
+              <input
+                class="store-checkout-input margin-top-1"
+                type="text"
+                name="city"
+                id="contact-information-city"
+                placeholder="city"
+              />
+              <div class="flex margin-top-1">
+                <select class="store-checkout-selector margin-right-1">
+                  <option>Country/region</option>
+                  <option>Poland</option>
+                  <option>Belarus</option>
+                  <option>Moon</option>
+                </select>
+                <input
+                  class="store-checkout-input"
+                  type="text"
+                  name="postal-code"
+                  id="contact-information-postal-code"
+                  placeholder="postal code"
+                />
+              </div>
+              <input
+                class="store-checkout-input margin-top-1"
+                type="text"
+                name="phone"
+                id="contact-information-phone"
+                placeholder="phone (optional)"
+              />
+            </div>
+            <label
+              class="checkbox-container store-checkout-2-information-checkbox"
+              ><span>
+                I give permission to process and store my personal data for the
+                purposes of order processing, analytics and customer support.
+              </span>
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+
+            <div class="margin-top-1 flex space-between">
+              <div class="green return-to-cart">
+                <div class="back-arrow"></div>
+                <a href=""> RETURN TO CART</a>
+              </div>
+
+              <div class="continue-to-shipping uppercase border-radius-left">
+                <a href=""> continue to shipping </a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="margin-2" />
+
+          <div class="flex-basis-50 margin-top-1">
+            <div class="store-checkout-2-items">
+              <!-- ITEM -->
+              <div
+                class="flex space-between store-checkout-2-item margin-bottom-1"
+              >
+                <div class="store-checkout-2-item-image margin-right-1">
+                  <div
+                    class="store-checkout-2-item-image-badge flex justify-center align-items-center"
+                  >
+                    <div>1</div>
+                  </div>
+                </div>
+                <div>
+                  <div class="store-checkout-2-item-title margin-right-1">
+                    title
+                  </div>
+                  <div class="store-checkout-2-item-description margin-right-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati, eius dicta quidem nesciunt explicabo nobis.
+                    Laborum dolores architecto libero at velit. Quia rem
+                    voluptas facilis neque! Exercitationem eaque magnam ad!
+                  </div>
+                </div>
+                <div class="store-checkout-2-item-price">47$</div>
+              </div>
+              <!--  -->
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div class="flex space-between">
+                <input
+                  class="store-checkout-input margin-right-1 margin-top-1"
+                  type="text"
+                  name="discount"
+                  id="discount-code"
+                  placeholder="discount code"
+                />
+
+                <button class="btn-gold uppercase discount-button margin-top-1">
+                  apply
+                </button>
+              </div>
+
+              <div class="flex space-between uppercase margin-top-1">
+                <div class="store-checkout-2-subtitle">subtotal</div>
+                <div>$176</div>
+              </div>
+
+              <div class="flex space-between">
+                <div class="uppercase">shipping</div>
+                <div class="opacity-07">Calculated at next step</div>
+              </div>
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div
+                class="store-checkout-2-total-title uppercase flex space-between"
+              >
+                <div>Total</div>
+                <div><span class="opacity-07">usd </span>$179</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDER -->
+
+    <section class="store-checkout-2-slider-section text-center">
+      <div class="container">SLIDER</div>
+    </section>
+
+    <footer class="footer-store-checkout-2">
+      <div class="container flex align-items-center uppercase">
+        <div>
+          <a href="">terms of service</a>
+          <a href="">refund policy</a>
+          <a href="">privacy policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
