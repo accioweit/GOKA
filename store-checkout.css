@@ -4,8 +4,6 @@
   z-index: 5;
 }
 
-/* STORE CHECKOUT */
-
 .navigation-active {
   background: #ffffff;
   color: var(--main-green-color);
@@ -30,7 +28,7 @@
   position: absolute;
   right: -0.5em;
   z-index: 3;
-  top: 0.2em;
+  top: 0.3em;
   width: 0;
   height: 0;
   border-top: 0.5em solid transparent;
@@ -48,7 +46,7 @@
 }
 
 .store-checkout-logo {
-  margin: 2em;
+  margin-top: 2em;
 }
 
 .store-checkout-title {
@@ -91,7 +89,7 @@
 }
 
 .store-checkout-navigation > div {
-  padding: 0.2em 2em;
+  padding: 0.3em 1.8em;
   font-weight: 600;
 }
 
@@ -108,6 +106,7 @@
 }
 
 .footer-store-checkout a {
+  font-size: 0.8em!important;
   margin-right: 1em;
 }
 
@@ -199,5 +198,3 @@
 .store-checkout-total-title {
   font-size: 1.5em;
 }
-
-/* _____________ */
