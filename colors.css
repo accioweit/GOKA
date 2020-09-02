@@ -24,3 +24,7 @@
 .gold {
   color: var(--main-gold-color);
 }
+
+.light-gray {
+  color: var(--light-gray-color);
+}

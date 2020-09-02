@@ -1,0 +1,286 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../../store-checkout.css" />
+    <link rel="stylesheet" type="text/css" href="../../main.css" />
+    <link rel="stylesheet" type="text/css" href="../../colors.css" />
+    <link rel="stylesheet" type="text/css" href="../../custom-radio.css" />
+    <link rel="stylesheet" type="text/css" href="../../fonts.css" />
+    <title>Store & Checkout</title>
+  </head>
+  <body>
+    <header>
+      <div class="initial-header store-checkout-initial-header"></div>
+      <div class="store-checkout-logo text-center">GOKA</div>
+    </header>
+
+    <!-- INFO & SHIPMENT -->
+
+    <section>
+      <div class="container">
+        <div class="store-checkout-navigation uppercase flex justify-center">
+          <div class="navigation-prev border-radius-left">cart</div>
+          <div class="navigation-prev navigation-left-border">information</div>
+          <div class="navigation-prev navigation-left-border">shipment</div>
+          <div class="navigation-active opacity-07 border-radius-right">
+            payment
+          </div>
+        </div>
+
+        <div
+          class="container flex justify-center store-checkout-information-container"
+        >
+          <div class="store-checkout-information flex-basis-50">
+            <div>
+              <div class="store-checkout-info flex space-between border-radius-left-top border-radius-right-top">
+                <div class="flex">
+                  <span class="store-checkout-info-title margin-left-1 margin-right-1 light-gray uppercase flex align-items-center">
+                    contact
+                  </span>
+                  <span class="store-checkout-info-data flex align-items-center">
+                    client_email@email.com
+                  </span>
+                </div>
+                <button class="store-checkout-info-button margin-right-1 green uppercase">
+                  change
+                </button>
+              </div>
+
+              <div class="store-checkout-info flex space-between">
+                <div class="flex">
+                  <span class="store-checkout-info-title margin-left-1 margin-right-1 light-gray uppercase flex align-items-center">
+                    ship to
+                  </span>
+                  <span class="store-checkout-info-data flex align-items-center">
+                    address of client, this is the first line
+                    and this is the second line for address
+                  </span>
+                </div>
+                <button class="store-checkout-info-button margin-right-1 green uppercase">
+                  change
+                </button>
+              </div>
+
+              <div class="store-checkout-info flex space-between border-radius-left-bottom border-radius-right-bottom">
+                <div class="flex">
+                  <span class="store-checkout-info-title margin-left-1 margin-right-1 light-gray uppercase flex align-items-center">
+                    method
+                  </span>
+                  <span class="store-checkout-info-data flex align-items-center">
+                    Flat Rate - $19.95
+                  </span>
+
+                </div>
+                <button class="store-checkout-info-button margin-right-1 green uppercase">
+                  change
+                </button>
+              </div>
+
+              <div class="store-checkout-title margin-top-1">shipping address</div>
+              <div class="store-checkout-description">All transactions are secure and encrypted.</div>
+              <div>
+                <div class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1">
+                  <label class="radio-container">
+                    <input
+                      class="form-radio"
+                      name="payment"
+                      type="radio"
+                      value="credit-card"
+                      checked
+                    />
+                    <span class="checkmark"></span>
+                    <span>
+                      Credit Card (10% additional discount)
+                    </span>
+                  </label>
+                </div>
+                <div class="store-checkout-input-container">
+                  <input
+                    class="store-checkout-input margin-top-1"
+                    type="text"
+                    name="card-number"
+                    id="shipping-address-card-number"
+                    placeholder="card number"
+                  />
+                  <input
+                    class="store-checkout-input margin-top-1"
+                    type="text"
+                    name="card-name"
+                    id="shipping-address-card-name"
+                    placeholder="name on the card"
+                  />
+                  <div class="flex margin-top-1">
+                    <input
+                      class="store-checkout-input margin-right-1"
+                      type="text"
+                      name="expiraton-date"
+                      id="shipping-address-expiraton-date"
+                      placeholder="expiraton date (mm / yy)"
+                    />
+                    <input
+                      class="store-checkout-input"
+                      type="password"
+                      name="security-code"
+                      id="shipping-address-security-code"
+                      placeholder="security code"
+                    />
+                  </div>
+                  <input
+                    class="store-checkout-input margin-top-1"
+                    type="text"
+                    name="phone"
+                    id="contact-information-phone"
+                    placeholder="phone (optional)"
+                  />
+                </div>
+              </div>
+              <div class="store-checkout-radio">
+                <label class="radio-container">
+                  <input name="payment" type="radio" value="paypal">
+                  <span class="checkmark"></span>
+                  <span>
+                    PayPal
+                  </span>
+                </label>
+              </div>
+              <div class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom">
+                <label class="radio-container">
+                  <input name="payment" type="radio" value="cost-on-delivery">
+                  <span class="checkmark"></span>
+                  Cost on Delivery
+                </label>
+              </div>
+            </div>
+
+            <div class="store-checkout-title margin-top-1">billing address</div>
+            <div class="store-checkout-description">All transactions are secure and encrypted.</div>
+            <div class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1">
+              <label class="radio-container">
+                <input
+                  name="billing-address"
+                  type="radio"
+                  value="same-as-shipping-address"
+                >
+                <span class="checkmark"></span>
+                <span class="uppercase">
+                  same as shipping address
+                </span>
+              </label>
+            </div>
+            <div class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom">
+              <label class="radio-container">
+                <input
+                  name="billing-address"
+                  type="radio"
+                  value="different-billing-address"
+                >
+                <span class="checkmark"></span>
+                <span class="uppercase">
+                  use a different billing address
+                </span>
+              </label>
+            </div>
+
+            <div class="margin-top-1 flex space-between">
+              <div class="green return-to-cart">
+                <div class="back-arrow"></div>
+                <a href=""> RETURN TO SHIPPING </a>
+              </div>
+
+              <div class="pay-now uppercase border-radius-left border-radius-right">
+                <a href=""> pay now </a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="margin-2" />
+
+          <div class="flex-basis-50 margin-top-1">
+            <div class="store-checkout-items">
+              <!-- ITEM -->
+              <div
+                class="flex space-between store-checkout-item margin-bottom-1"
+              >
+                <div class="store-checkout-item-image margin-right-1">
+                  <div
+                    class="store-checkout-item-image-badge flex justify-center align-items-center"
+                  >
+                    <div class="meta-pro-bold">1</div>
+                  </div>
+                </div>
+                <div>
+                  <div class="store-checkout-item-title margin-right-1">
+                    title
+                  </div>
+                  <div class="store-checkout-item-description margin-right-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati, eius dicta quidem nesciunt explicabo nobis.
+                    Laborum dolores architecto libero at velit. Quia rem
+                    voluptas facilis neque! Exercitationem eaque magnam ad!
+                  </div>
+                </div>
+                <div class="store-checkout-item-price meta-pro-bold">47$</div>
+              </div>
+              <!--  -->
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div class="flex space-between">
+                <input
+                  class="store-checkout-input margin-right-1"
+                  type="text"
+                  name="discount"
+                  id="discount-code"
+                  placeholder="discount code"
+                />
+
+                <button class="btn-gold uppercase discount-button">
+                  apply
+                </button>
+              </div>
+
+              <div class="flex space-between uppercase margin-top-1">
+                <div class="store-checkout-subtitle">subtotal</div>
+                <div class="meta-pro-bold">$176</div>
+              </div>
+
+              <div class="flex space-between">
+                <div class="uppercase">shipping</div>
+                <div class="opacity-07">Calculated at next step</div>
+              </div>
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div
+                class="store-checkout-total-title uppercase flex space-between"
+              >
+                <div>Total</div>
+                <div>
+                  <span class="opacity-07">usd </span>
+                  <span class="meta-pro-bold"> $179 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDER -->
+
+    <section class="store-checkout-slider-section text-center">
+      <div class="container">SLIDER</div>
+    </section>
+
+    <footer class="footer-store-checkout">
+      <div class="container flex align-items-center uppercase">
+        <div>
+          <a href="">terms of service</a>
+          <a href="">refund policy</a>
+          <a href="">privacy policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
