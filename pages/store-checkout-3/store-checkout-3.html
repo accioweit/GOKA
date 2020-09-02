@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./store-checkout-3.css" />
+    <link rel="stylesheet" type="text/css" href="../../store-checkout.css" />
     <link rel="stylesheet" type="text/css" href="../../main.css" />
     <link rel="stylesheet" type="text/css" href="../../colors.css" />
     <link rel="stylesheet" type="text/css" href="../../fonts.css" />
@@ -13,5 +13,121 @@
       <div class="initial-header store-checkout-initial-header"></div>
       <div class="store-checkout-logo text-center">GOKA</div>
     </header>
+
+    <section>
+      <div class="container">
+        <div class="store-checkout-navigation uppercase flex justify-center">
+          <div class="navigation-prev border-radius-left">cart</div>
+          <div class="navigation-prev navigation-left-border">information</div>
+          <div class="navigation-active">shipment</div>
+          <div class="navigation-next opacity-07 border-radius-right">
+            payment
+          </div>
+        </div>
+
+        <div
+          class="container flex justify-center store-checkout-information-container"
+        >
+          <div class="store-checkout-information flex-basis-50">
+            <div class="margin-top-1 flex space-between">
+              <div class="green return-to-cart">
+                <div class="back-arrow"></div>
+                <a href=""> RETURN TO CART</a>
+              </div>
+
+              <div class="continue-to-shipping uppercase border-radius-left">
+                <a href=""> continue to shipping </a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="margin-2" />
+
+          <div class="flex-basis-50 margin-top-1">
+            <div class="store-checkout-items">
+              <!-- ITEM -->
+              <div
+                class="flex space-between store-checkout-item margin-bottom-1"
+              >
+                <div class="store-checkout-item-image margin-right-1">
+                  <div
+                    class="store-checkout-item-image-badge flex justify-center align-items-center"
+                  >
+                    <div class="meta-pro-bold">1</div>
+                  </div>
+                </div>
+                <div>
+                  <div class="store-checkout-item-title margin-right-1">
+                    title
+                  </div>
+                  <div class="store-checkout-item-description margin-right-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati, eius dicta quidem nesciunt explicabo nobis.
+                    Laborum dolores architecto libero at velit. Quia rem
+                    voluptas facilis neque! Exercitationem eaque magnam ad!
+                  </div>
+                </div>
+                <div class="store-checkout-item-price meta-pro-bold">47$</div>
+              </div>
+              <!--  -->
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div class="flex space-between">
+                <input
+                  class="store-checkout-input margin-right-1"
+                  type="text"
+                  name="discount"
+                  id="discount-code"
+                  placeholder="discount code"
+                />
+
+                <button class="btn-gold uppercase discount-button">
+                  apply
+                </button>
+              </div>
+
+              <div class="flex space-between uppercase margin-top-1">
+                <div class="store-checkout-subtitle">subtotal</div>
+                <div class="meta-pro-bold">$176</div>
+              </div>
+
+              <div class="flex space-between">
+                <div class="uppercase">shipping</div>
+                <div class="opacity-07">Calculated at next step</div>
+              </div>
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div
+                class="store-checkout-total-title uppercase flex space-between"
+              >
+                <div>Total</div>
+                <div>
+                  <span class="opacity-07">usd </span>
+                  <span class="meta-pro-bold"> $179 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDER -->
+
+    <section class="store-checkout-slider-section text-center">
+      <div class="container">SLIDER</div>
+    </section>
+
+    <footer class="footer-store-checkout">
+      <div class="container flex align-items-center uppercase">
+        <div>
+          <a href="">terms of service</a>
+          <a href="">refund policy</a>
+          <a href="">privacy policy</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
