@@ -11,11 +11,7 @@
 .home-about-1-header-title {
   height: 100%;
   color: #ffffff;
-  font-size: 5em;
-}
-
-.home-about-1-header-title div {
-  padding: 1em;
+  font-size: 6em;
 }
 
 .footer-home-about-1 {
@@ -31,12 +27,12 @@
   height: 25vh;
   width: 100%;
   position: relative;
-  top: -18vh;
-  margin-bottom: -20vh;
+  top: -12vh;
+  margin-bottom: -12vh;
 }
 
 .about-container-image img {
-  height: 100%;
+  max-height: 80%;
   width: auto;
 }
 
@@ -49,7 +45,6 @@
 }
 
 .about-title {
-  margin-top: 2em;
   color: var(--main-green-color);
 }
 

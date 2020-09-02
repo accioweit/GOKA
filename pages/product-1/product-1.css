@@ -211,10 +211,6 @@
   border-radius: 50%;
 }
 
-.product-review-description {
-  line-height: 1.3em;
-}
-
 .product-review-buttons button {
   background: #ededed;
   color: var(--main-gray-color);

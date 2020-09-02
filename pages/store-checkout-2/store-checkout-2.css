@@ -27,7 +27,6 @@
 
 .store-checkout-2-information-checkbox span {
   font-size: 0.8em;
-  line-height: normal;
 }
 
 .back-arrow {
@@ -83,7 +82,6 @@
 .store-checkout-2-item-description {
   font-size: 0.7em;
   color: var(--main-gray-color);
-  line-height: normal;
   flex-basis: 40%;
 }
 
