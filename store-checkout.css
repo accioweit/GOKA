@@ -48,7 +48,7 @@
 }
 
 .store-checkout-logo {
-  margin: 2em;
+  margin-top: 2em;
 }
 
 .store-checkout-title {
@@ -107,7 +107,7 @@
 }
 
 .store-checkout-navigation > div {
-  padding: 0.2em 2em;
+  padding: 0.3em 1.8em;
   font-weight: 600;
 }
 
@@ -124,6 +124,7 @@
 }
 
 .footer-store-checkout a {
+  font-size: 0.8em!important;
   margin-right: 1em;
 }
 
