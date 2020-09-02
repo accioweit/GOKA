@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Arabic;
+  src: url('./fonts/AdobeArabic-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: ArabicBold;
+  src: url('./fonts/AdobeArabic-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MetaPro;
+  src: url('./fonts/metapro-normal.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MetaProBold;
+  src: url('./fonts/metapro-bold.otf') format('opentype');
+}
+
+/* FONT STYLE */
+
+.arabic {
+  font-family: Arabic;
+}
+
+.arabic-bold {
+  font-family: ArabicBold;
+}
+
+.meta-pro {
+  font-family: MetaPro;
+}
+
+.meta-pro-bold {
+  font-family: MetaProBold;
+}
