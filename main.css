@@ -52,6 +52,14 @@ body {
   flex-basis: 50%;
 }
 
+.border-top-none {
+  border-top: none;
+}
+
+.border-bottom-none {
+  border-bottom: none;
+}
+
 .initial-header {
   height: 2em;
 }
