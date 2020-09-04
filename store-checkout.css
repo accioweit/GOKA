@@ -1,8 +1,29 @@
 /* STORE CHECKOUT */
 
 .navigation-active {
+  position: relative;
   background: #ffffff;
   color: var(--main-green-color);
+  height: 1em;
+}
+
+.navigavion-active-arrow::after {
+  content: '';
+  position: absolute;
+  right: -0.3em;
+  z-index: 3;
+  top: 0.5em;
+  width: 0;
+  height: 0;
+  border-top: 0.3em solid transparent;
+  border-bottom: 0.3em solid transparent;
+  border-right: 0.3em solid var(--main-green-color);
+  clear: both;
+}
+
+.navigation-next-dark {
+  background: var(--main-gray-color);
+  color: #ffffff;
   height: 1em;
 }
 
@@ -264,4 +285,44 @@
   font-size: 0.7em;
 }
 
-/* _____________ */
+.reviews-container {
+  width: 50%;
+}
+
+.reviews-text {
+  font-size: 0.7em;
+}
+
+.reviews-button {
+  width: 100%;
+}
+
+.rewiew-stars {
+  margin-top: -0.2em;
+}
+
+.store-5-item-image {
+  position: relative;
+  top: -5em;
+}
+.write-a-review {
+  color: #2086c1;
+}
+
+.store-5-item-button {
+  flex-basis: 30%;
+  color: var(--light-gray-color);
+  font-size: 0.7em;
+  text-align: right;
+  border-radius: 10px;
+  border: 1px solid var(--main-gray-color);
+}
+
+.store-5-item-button:focus {
+  border: 1px solid var(--main-green-color);
+  background-color: #f0f2ea;
+}
+
+.store-5-item-button-img img {
+  width: 6em;
+}
