@@ -50,30 +50,29 @@
 
 .about-products-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1px 1px;
-  grid-template-areas: '. .' '. .' '. .';
+  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+  grid-gap: 10px;
 }
 
 .about-products-container > .about-product {
   padding: 1em;
   margin: 1em;
-  border: 1px solid var(--main-green-color);
-}
-
-.about-product-description-title {
-  font-weight: 600;
 }
 
 .about-product-description {
-  width: 55%;
+  flex-basis: 60%;
+  flex-shrink: 0;
 }
 
-.about-product-image {
-  margin-left: 1em;
-  width: 40%;
-  height: 100%;
-  background: var(--main-green-color);
+.about-product-description-title {
+  font-size: 1.5em;
+}
+
+.about-product-image img {
+  max-width: 15em;
+  position: relative;
+  left: -4em;
+  top: -1em;
 }
 
 /* ABOUT MORE SECTION */
@@ -114,7 +113,10 @@
 /* SERTIFICATION SECTION */
 
 .sertification-section {
-  background: var(--main-gray-color);
+  background-image: url('../../images/dandelion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .certification-container {
