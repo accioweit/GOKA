@@ -331,6 +331,11 @@
   max-width: 2em;
 }
 
+.product-subtext-image img {
+  max-width: 2em;
+  margin-bottom: 0.5em;
+}
+
 /* MODAL */
 
 .modal-store-checkout-container {
@@ -342,8 +347,4 @@
 .modal-store-checkout-title {
   font-size: 8em;
   font-family: ArabicBold;
-}
-
-.modal-store-checkout-subtitle {
-  
 }
