@@ -16,7 +16,7 @@ body {
   display: inline-flex;
 }
 
-.row-reverse{
+.row-reverse {
   flex-direction: row-reverse;
 }
 
@@ -136,7 +136,7 @@ body {
 footer {
   height: 2em;
   display: flex;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 footer a {
@@ -159,6 +159,7 @@ footer .container {
 .contact-section textarea {
   margin-top: 1em;
   margin-bottom: 1em;
+  outline: none;
 }
 
 .contact-section {
@@ -267,9 +268,13 @@ a {
   text-decoration: none;
 }
 
+.contact-section {
+  font-size: 1.3em;
+}
+
 .contact-logo img {
   padding: 0.3em 0;
-  max-width: 15vw;
+  max-width: 10vw;
 }
 
 .contact-items-container {
@@ -280,5 +285,5 @@ a {
 }
 
 .contact-stamp img {
-  max-width: 10vw;
+  max-width: 8vw;
 }

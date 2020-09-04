@@ -38,118 +38,28 @@
         <div
           class="container flex justify-center store-checkout-information-container"
         >
-          <div class="store-checkout-information flex-basis-50">
-            <div>
-              <div class="store-checkout-title">contact information</div>
-              <input
-                class="store-checkout-input"
-                type="text"
-                name="email"
-                id="contact-information-email"
-                placeholder="email"
-              />
-              <label
-                class="checkbox-container store-checkout-information-checkbox"
-                ><span> Keep me up to date on news and exclusive offers </span>
-                <input type="checkbox" />
-                <span class="checkmark"></span>
-              </label>
-              <div class="store-checkout-title">shipping address</div>
-              <div class="flex">
-                <input
-                  class="store-checkout-input margin-right-1"
-                  type="text"
-                  name="firstname"
-                  id="contact-information-firstname"
-                  placeholder="first name"
-                />
-                <input
-                  class="store-checkout-input"
-                  type="text"
-                  name="lastname"
-                  id="contact-information-lastname"
-                  placeholder="last name"
-                />
-              </div>
-              <input
-                class="store-checkout-input margin-top-1"
-                type="text"
-                name="address"
-                id="contact-information-address"
-                placeholder="address"
-              />
-              <input
-                class="store-checkout-input margin-top-1"
-                type="text"
-                name="city"
-                id="contact-information-city"
-                placeholder="city"
-              />
-              <div class="flex margin-top-1">
-                <select class="store-checkout-selector margin-right-1">
-                  <option>Country/region</option>
-                  <option>Poland</option>
-                  <option>Belarus</option>
-                  <option>Moon</option>
-                </select>
-                <input
-                  class="store-checkout-input"
-                  type="text"
-                  name="postal-code"
-                  id="contact-information-postal-code"
-                  placeholder="postal code"
-                />
-              </div>
-              <input
-                class="store-checkout-input margin-top-1"
-                type="text"
-                name="phone"
-                id="contact-information-phone"
-                placeholder="phone (optional)"
-              />
-            </div>
-            <label
-              class="checkbox-container store-checkout-information-checkbox"
-              ><span>
-                I give permission to process and store my personal data for the
-                purposes of order processing, analytics and customer support.
-              </span>
-              <input type="checkbox" />
-              <span class="checkmark"></span>
-            </label>
-
-            <div class="margin-top-1 flex space-between">
-              <div class="green return-to-cart">
-                <div class="back-arrow"></div>
-                <a href=""> RETURN TO CART</a>
-              </div>
-
-              <div class="continue-to-shipping uppercase border-radius-left">
-                <a href=""> continue to shipping </a>
-              </div>
-            </div>
-          </div>
-
-          <hr class="margin-2" />
-
           <div class="flex-basis-50 margin-top-1">
             <div class="store-checkout-items">
               <!-- ITEM -->
               <div
-                class="flex space-between store-checkout-item margin-bottom-1"
+                class="flex space-between row-reverse store-checkout-item margin-bottom-1"
               >
-                <div class="store-checkout-item-image margin-right-1">
+                <div class="store-checkout-item-image">
                   <div
                     class="store-checkout-item-image-badge flex justify-center align-items-center"
                   >
                     <div class="meta-pro">1</div>
                   </div>
                 </div>
-                <div>
-                  <div class="store-checkout-item-title margin-right-1">
+                <div dir="rtl">
+                  <div
+                    class="store-checkout-item-title margin-left-1 margin-right-1"
+                  >
                     title
                   </div>
-                  <div class="store-checkout-item-description margin-right-1">
+                  <div
+                    class="store-checkout-item-description margin-left-1 margin-right-1"
+                  >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Obcaecati, eius dicta quidem nesciunt explicabo nobis.
                     Laborum dolores architecto libero at velit. Quia rem
@@ -162,40 +72,134 @@
 
               <hr class="margin-top-1 margin-bottom-1" />
 
-              <div class="flex space-between">
+              <div class="flex space-between row-reverse" dir="rtl">
+                <button class="btn-gold uppercase discount-button">
+                  تطبيق
+                </button>
                 <input
-                  class="store-checkout-input margin-right-1"
+                  class="store-checkout-input margin-left-1"
                   type="text"
                   name="discount"
                   id="discount-code"
-                  placeholder="discount code"
+                  placeholder="رمز التخفيض"
                 />
-
-                <button class="btn-gold uppercase discount-button">
-                  apply
-                </button>
               </div>
 
-              <div class="flex space-between uppercase margin-top-1">
-                <div class="store-checkout-subtitle">subtotal</div>
+              <div class="flex space-between uppercase margin-top-1" dir="rtl">
+                <div class="store-checkout-subtitle">المجموع الفرعي</div>
                 <div class="meta-pro">$176</div>
               </div>
 
-              <div class="flex space-between">
-                <div class="uppercase">shipping</div>
-                <div class="opacity-07">Calculated at next step</div>
+              <div class="flex space-between" dir="rtl">
+                <div class="uppercase">الشحن</div>
+                <div class="opacity-07">محسوب في الخطوة التالية</div>
               </div>
 
               <hr class="margin-top-1 margin-bottom-1" />
 
               <div
-                class="store-checkout-total-title uppercase flex space-between"
+                class="store-checkout-total-title uppercase flex space-between row-reverse"
               >
-                <div>Total</div>
+                <div>مجموع</div>
                 <div>
-                  <span class="opacity-07">usd </span>
                   <span class="meta-pro"> $179 </span>
+                  <span class="opacity-07 store-total-price">usd </span>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="margin-2" />
+
+          <div class="store-checkout-information flex-basis-50 margin-top-1">
+            <div dir="rtl">
+              <div class="store-checkout-title">معلومات للتواصل</div>
+              <input
+                class="store-checkout-input"
+                type="text"
+                name="email"
+                id="contact-information-email"
+                placeholder="البريد الإلكتروني"
+              />
+              <label
+                class="checkbox-container store-checkout-information-checkbox"
+                ><span>ابقني على اطلاع على الأخبار والعروض الحصرية</span>
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+              <div class="store-checkout-title">عنوان الشحن</div>
+              <div class="flex row-reverse">
+                <input
+                  class="store-checkout-input margin-right-1"
+                  type="text"
+                  name="firstname"
+                  id="contact-information-firstname"
+                  placeholder="الاسم الاول"
+                />
+                <input
+                  class="store-checkout-input"
+                  type="text"
+                  name="lastname"
+                  id="contact-information-lastname"
+                  placeholder="اللقب"
+                />
+              </div>
+              <input
+                class="store-checkout-input margin-top-1"
+                type="text"
+                name="address"
+                id="contact-information-address"
+                placeholder="العنوان"
+              />
+              <input
+                class="store-checkout-input margin-top-1"
+                type="text"
+                name="city"
+                id="contact-information-city"
+                placeholder="مدينة"
+              />
+              <div class="flex margin-top-1">
+                <select class="store-checkout-selector margin-left-1">
+                  <option>البلد / المنطقة</option>
+                  <option>Poland</option>
+                  <option>Belarus</option>
+                  <option>Moon</option>
+                </select>
+                <input
+                  class="store-checkout-input"
+                  type="text"
+                  name="postal-code"
+                  id="contact-information-postal-code"
+                  placeholder=" الرقم البريدي"
+                />
+              </div>
+              <input
+                class="store-checkout-input margin-top-1"
+                type="text"
+                name="phone"
+                id="contact-information-phone"
+                placeholder=" الهاتف (اختياري )"
+              />
+            </div>
+            <label
+              dir="rtl"
+              class="checkbox-container store-checkout-information-checkbox"
+              ><span>
+                أعطي موافقة لمعالجة بياناتي الشخصية وتخزينها للأغراض لمعالجة
+                الطلبات والتحليلات ودعم العملاء.
+              </span>
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+
+            <div class="margin-top-1 flex space-between row-reverse">
+              <div class="green return-to-cart">
+                <a href="">العودة إلى المعلومات</a>
+                <div class="back-arrow"></div>
+              </div>
+
+              <div class="continue-to-shipping uppercase border-radius-right">
+                <a href="">استمر في الدفع</a>
               </div>
             </div>
           </div>
@@ -212,9 +216,9 @@
     <footer class="footer-store-checkout">
       <div class="container flex align-items-center uppercase">
         <div>
-          <a href="">terms of service</a>
-          <a href="">refund policy</a>
-          <a href="">privacy policy</a>
+          <a href="">سياسة خاصة</a>
+          <a href="">سياسة الاسترجاع</a>
+          <a href="">شروط الخدمة</a>
         </div>
       </div>
     </footer>
