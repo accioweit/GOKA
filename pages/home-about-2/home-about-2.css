@@ -76,10 +76,15 @@
   background: var(--main-green-color);
 }
 
+.product-subtext-image img {
+  max-width: 2em;
+  margin-bottom: 0.5em;
+}
+
 /* ABOUT MORE SECTION */
 
 .about-more-section {
-  background-image: url('../../images/home-about-1-about-more-bg.jpg');
+  background-image: url('../../images/spices.png');
 }
 
 .about-more-section .container {
@@ -95,6 +100,11 @@
 .rate-us-item {
   width: 30%;
   padding: 0 3em;
+}
+
+.rate-us-item img {
+  max-width: 2em;
+  margin-bottom: 0.5em;
 }
 
 /* FEEDBACK */
