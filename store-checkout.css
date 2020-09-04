@@ -1,9 +1,3 @@
-.navigation-left-border {
-  border-left: 3px solid #fff;
-  position: relative;
-  z-index: 5;
-}
-
 /* STORE CHECKOUT */
 
 .navigation-active {
@@ -25,17 +19,21 @@
   height: 1em;
 }
 
-.navigation-prev::after {
+.navigation-right-border {
+  border-right: 3px solid #fff;
+}
+
+.navigation-prev-arrow::after {
   content: '';
   position: absolute;
-  right: -0.3em;
+  left: -0.3em;
   z-index: 3;
   top: 0.5em;
   width: 0;
   height: 0;
   border-top: 0.3em solid transparent;
   border-bottom: 0.3em solid transparent;
-  border-left: 0.3em solid var(--main-green-color);
+  border-right: 0.3em solid var(--main-green-color);
   clear: both;
 }
 
@@ -124,7 +122,7 @@
 }
 
 .footer-store-checkout a {
-  font-size: 0.8em!important;
+  font-size: 0.8em !important;
   margin-right: 1em;
 }
 
@@ -136,12 +134,12 @@
 .back-arrow {
   margin-right: 0.5em;
   margin-top: 2em;
-  width: 0.7em;
-  height: 0.7em;
+  width: 0.5em;
+  height: 0.5em;
   display: inline-block;
   transform: rotate(-45deg);
-  border-left: 2px solid var(--main-green-color);
-  border-top: 2px solid var(--main-green-color);
+  border-right: 2px solid var(--main-green-color);
+  border-bottom: 2px solid var(--main-green-color);
 }
 
 .return-to-cart a:active,
@@ -153,10 +151,10 @@
   position: relative;
   background: var(--main-gold-color);
   color: #ffffff;
-  padding: 0.5em 1em;
+  padding: 0.3em 1em;
   height: 1em;
   top: 1.5em;
-  right: 1.5em;
+  right: -0.4em;
 }
 
 .continue-to-shipping a:active,
@@ -169,14 +167,14 @@
 .continue-to-shipping::after {
   content: '';
   position: absolute;
-  right: -1em;
+  left: -0.3em;
   z-index: 3;
-  top: 0.4em;
+  top: 0.5em;
   width: 0;
   height: 0;
-  border-top: 0.6em solid transparent;
-  border-bottom: 0.6em solid transparent;
-  border-left: 1em solid var(--main-gold-color);
+  border-top: 0.3em solid transparent;
+  border-bottom: 0.3em solid transparent;
+  border-right: 0.3em solid var(--main-gold-color);
   clear: both;
 }
 
@@ -184,10 +182,10 @@
   position: relative;
   background: var(--main-gold-color);
   color: #ffffff;
-  padding: 0.5em 1em;
+  padding: 0.3em 1em;
   height: 1em;
   top: 1.5em;
-  right: 1.5em;
+  right: 0em;
 }
 
 .store-checkout-item-title {
@@ -245,17 +243,25 @@
 .store-checkout-radio {
   font-size: 0.7em;
   padding: 0 0.6em;
-  width: 100%;
   border: 1px solid var(--light-gray-color);
   min-height: 50px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .store-checkout-input-container {
-  width: calc(100% - 0.35em);
   border: 1px solid var(--light-gray-color);
   padding: 0 0.6em 1em 0.6em;
+}
+
+.checkmark-price {
+  position: absolute;
+  left: 1em;
+}
+
+.store-total-price {
+  font-size: 0.7em;
 }
 
 /* _____________ */

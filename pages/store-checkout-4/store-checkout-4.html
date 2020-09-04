@@ -25,67 +25,182 @@
     <section>
       <div class="container">
         <div class="store-checkout-navigation uppercase flex justify-center">
-          <div class="navigation-prev border-radius-left">cart</div>
-          <div class="navigation-prev navigation-left-border">information</div>
-          <div class="navigation-prev navigation-left-border">shipment</div>
-          <div class="navigation-active opacity-07 border-radius-right">
-            payment
+          <div class="navigation-active border-radius-left">الدفع</div>
+          <div
+            class="navigation-prev navigation-prev-arrow navigation-right-border"
+          >
+            شحنة
           </div>
+          <div class="navigation-prev navigation-right-border">معلومات</div>
+          <div class="navigation-prev border-radius-right">بطاقة</div>
         </div>
 
         <div
           class="container flex justify-center store-checkout-information-container"
         >
-          <div class="store-checkout-information flex-basis-50">
+          <div class="flex-basis-50 margin-top-1">
+            <div class="store-checkout-items">
+              <!-- ITEM -->
+              <div
+                class="flex space-between row-reverse store-checkout-item margin-bottom-1"
+              >
+                <div class="store-checkout-item-image">
+                  <div
+                    class="store-checkout-item-image-badge flex justify-center align-items-center"
+                  >
+                    <div class="meta-pro">1</div>
+                  </div>
+                </div>
+                <div dir="rtl">
+                  <div
+                    class="store-checkout-item-title margin-left-1 margin-right-1"
+                  >
+                    title
+                  </div>
+                  <div
+                    class="store-checkout-item-description margin-left-1 margin-right-1"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati, eius dicta quidem nesciunt explicabo nobis.
+                    Laborum dolores architecto libero at velit. Quia rem
+                    voluptas facilis neque! Exercitationem eaque magnam ad!
+                  </div>
+                </div>
+                <div class="store-checkout-item-price meta-pro">47$</div>
+              </div>
+              <!--  -->
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div class="flex space-between row-reverse" dir="rtl">
+                <button class="btn-gold uppercase discount-button">
+                  تطبيق
+                </button>
+                <input
+                  class="store-checkout-input margin-left-1"
+                  type="text"
+                  name="discount"
+                  id="discount-code"
+                  placeholder="رمز التخفيض"
+                />
+              </div>
+
+              <div class="flex space-between uppercase margin-top-1" dir="rtl">
+                <div class="store-checkout-subtitle">المجموع الفرعي</div>
+                <div class="meta-pro">$176</div>
+              </div>
+
+              <div class="flex space-between" dir="rtl">
+                <div class="uppercase">الشحن</div>
+                <div class="opacity-07">محسوب في الخطوة التالية</div>
+              </div>
+
+              <hr class="margin-top-1 margin-bottom-1" />
+
+              <div
+                class="store-checkout-total-title uppercase flex space-between row-reverse"
+              >
+                <div>مجموع</div>
+                <div>
+                  <span class="meta-pro"> $179 </span>
+                  <span class="opacity-07 store-total-price">usd </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="margin-2" />
+
+          <div class="store-checkout-information flex-basis-50 margin-top-1">
             <div>
-              <div class="store-checkout-info flex space-between border-radius-left-top border-radius-right-top">
-                <div class="flex">
-                  <span class="store-checkout-info-title margin-left-1 margin-right-1 light-gray uppercase flex align-items-center">
-                    contact
-                  </span>
-                  <span class="store-checkout-info-data flex align-items-center">
-                    client_email@email.com
-                  </span>
+              <div
+                class="store-checkout-info border-radius-left-top border-radius-right-top"
+              >
+                <div class="flex space-between">
+                  <button
+                    class="store-checkout-info-button margin-right-1 green uppercase"
+                  >
+                    تغير
+                  </button>
+                  <div class="flex">
+                    <span
+                      dir="rtl"
+                      class="store-checkout-info-data flex align-items-center opacity-07"
+                    >
+                      client_email@email.com
+                    </span>
+                    <span
+                      dir="rtl"
+                      class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
+                    >
+                      تواصل
+                    </span>
+                  </div>
                 </div>
-                <button class="store-checkout-info-button margin-right-1 green uppercase">
-                  change
-                </button>
               </div>
 
-              <div class="store-checkout-info flex space-between border-top-none border-bottom-none">
-                <div class="flex">
-                  <span class="store-checkout-info-title margin-left-1 margin-right-1 light-gray uppercase flex align-items-center">
-                    ship to
-                  </span>
-                  <span class="store-checkout-info-data flex align-items-center">
-                    address of client, this is the first line
-                    and this is the second line for address
-                  </span>
+              <div
+                class="store-checkout-info border-top-none border-bottom-none"
+              >
+                <div class="flex space-between">
+                  <button
+                    class="store-checkout-info-button margin-right-1 green uppercase"
+                  >
+                    تغير
+                  </button>
+                  <div class="flex">
+                    <span
+                      dir="rtl"
+                      class="store-checkout-info-data flex align-items-center opacity-07"
+                    >
+                      address of client, this is the first line and this is the
+                      second line for address
+                    </span>
+                    <span
+                      dir="rtl"
+                      class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
+                    >
+                      شحن الى
+                    </span>
+                  </div>
                 </div>
-                <button class="store-checkout-info-button margin-right-1 green uppercase">
-                  change
-                </button>
               </div>
 
-              <div class="store-checkout-info flex space-between border-radius-left-bottom border-radius-right-bottom">
-                <div class="flex">
-                  <span class="store-checkout-info-title margin-left-1 margin-right-1 light-gray uppercase flex align-items-center">
-                    method
-                  </span>
-                  <span class="store-checkout-info-data flex align-items-center">
-                    Flat Rate - $19.95
-                  </span>
-
+              <div
+                class="store-checkout-info border-radius-left-bottom border-radius-right-bottom"
+              >
+                <div class="flex space-between">
+                  <button
+                    class="store-checkout-info-button margin-right-1 green uppercase"
+                  >
+                    طريقة الشحن
+                  </button>
+                  <div class="flex">
+                    <span
+                      class="store-checkout-info-data flex align-items-center opacity-07"
+                    >
+                      <span class="meta-pro">19.95$</span> - سعر
+                    </span>
+                    <span
+                      dir="rtl"
+                      class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
+                    >
+                      تواصل
+                    </span>
+                  </div>
                 </div>
-                <button class="store-checkout-info-button margin-right-1 green uppercase">
-                  change
-                </button>
               </div>
 
-              <div class="store-checkout-title margin-top-1">shipping address</div>
-              <div class="store-checkout-description">All transactions are secure and encrypted.</div>
+              <div class="store-checkout-title margin-top-1">
+                shipping address
+              </div>
+              <div class="store-checkout-description">
+                All transactions are secure and encrypted.
+              </div>
               <div>
-                <div class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1">
+                <div
+                  class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1"
+                >
                   <label class="radio-container">
                     <input
                       class="form-radio"
@@ -95,12 +210,12 @@
                       checked
                     />
                     <span class="checkmark"></span>
-                    <span>
-                      Credit Card (10% additional discount)
-                    </span>
+                    <span> Credit Card (10% additional discount) </span>
                   </label>
                 </div>
-                <div class="store-checkout-input-container border-top-none border-bottom-none">
+                <div
+                  class="store-checkout-input-container store-checkout-information border-top-none border-bottom-none"
+                >
                   <input
                     class="store-checkout-input margin-top-1"
                     type="text"
@@ -142,16 +257,16 @@
               </div>
               <div class="store-checkout-radio border-bottom-none">
                 <label class="radio-container">
-                  <input name="payment" type="radio" value="paypal">
+                  <input name="payment" type="radio" value="paypal" />
                   <span class="checkmark"></span>
-                  <span>
-                    PayPal
-                  </span>
+                  <span> PayPal </span>
                 </label>
               </div>
-              <div class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom">
+              <div
+                class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom"
+              >
                 <label class="radio-container">
-                  <input name="payment" type="radio" value="cost-on-delivery">
+                  <input name="payment" type="radio" value="cost-on-delivery" />
                   <span class="checkmark"></span>
                   Cost on Delivery
                 </label>
@@ -159,112 +274,46 @@
             </div>
 
             <div class="store-checkout-title margin-top-1">billing address</div>
-            <div class="store-checkout-description">All transactions are secure and encrypted.</div>
-            <div class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1 border-bottom-none">
+            <div class="store-checkout-description">
+              All transactions are secure and encrypted.
+            </div>
+            <div
+              class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1 border-bottom-none"
+            >
               <label class="radio-container">
                 <input
                   name="billing-address"
                   type="radio"
                   value="same-as-shipping-address"
-                >
+                />
                 <span class="checkmark"></span>
-                <span class="uppercase">
-                  same as shipping address
-                </span>
+                <span class="uppercase"> same as shipping address </span>
               </label>
             </div>
-            <div class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom">
+            <div
+              class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom"
+            >
               <label class="radio-container">
                 <input
                   name="billing-address"
                   type="radio"
                   value="different-billing-address"
-                >
+                />
                 <span class="checkmark"></span>
-                <span class="uppercase">
-                  use a different billing address
-                </span>
+                <span class="uppercase"> use a different billing address </span>
               </label>
             </div>
 
-            <div class="margin-top-1 flex space-between">
+            <div class="margin-top-1 flex space-between row-reverse">
               <div class="green return-to-cart">
+                <a href="">العودة إلى المعلومات</a>
                 <div class="back-arrow"></div>
-                <a href=""> RETURN TO SHIPPING </a>
               </div>
-
-              <div class="pay-now uppercase border-radius-left border-radius-right">
-                <a href=""> pay now </a>
-              </div>
-            </div>
-          </div>
-
-          <hr class="margin-2" />
-
-          <div class="flex-basis-50 margin-top-1">
-            <div class="store-checkout-items">
-              <!-- ITEM -->
-              <div
-                class="flex space-between store-checkout-item margin-bottom-1"
-              >
-                <div class="store-checkout-item-image margin-right-1">
-                  <div
-                    class="store-checkout-item-image-badge flex justify-center align-items-center"
-                  >
-                    <div class="meta-pro-bold">1</div>
-                  </div>
-                </div>
-                <div>
-                  <div class="store-checkout-item-title margin-right-1">
-                    title
-                  </div>
-                  <div class="store-checkout-item-description margin-right-1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati, eius dicta quidem nesciunt explicabo nobis.
-                    Laborum dolores architecto libero at velit. Quia rem
-                    voluptas facilis neque! Exercitationem eaque magnam ad!
-                  </div>
-                </div>
-                <div class="store-checkout-item-price meta-pro-bold">47$</div>
-              </div>
-              <!--  -->
-
-              <hr class="margin-top-1 margin-bottom-1" />
-
-              <div class="flex space-between">
-                <input
-                  class="store-checkout-input margin-right-1"
-                  type="text"
-                  name="discount"
-                  id="discount-code"
-                  placeholder="discount code"
-                />
-
-                <button class="btn-gold uppercase discount-button">
-                  apply
-                </button>
-              </div>
-
-              <div class="flex space-between uppercase margin-top-1">
-                <div class="store-checkout-subtitle">subtotal</div>
-                <div class="meta-pro-bold">$176</div>
-              </div>
-
-              <div class="flex space-between">
-                <div class="uppercase">shipping</div>
-                <div class="opacity-07">Calculated at next step</div>
-              </div>
-
-              <hr class="margin-top-1 margin-bottom-1" />
 
               <div
-                class="store-checkout-total-title uppercase flex space-between"
+                class="pay-now uppercase border-radius-left border-radius-right"
               >
-                <div>Total</div>
-                <div>
-                  <span class="opacity-07">usd </span>
-                  <span class="meta-pro-bold"> $179 </span>
-                </div>
+                <a href="">ادفع الآن</a>
               </div>
             </div>
           </div>

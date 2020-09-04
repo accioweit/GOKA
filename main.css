@@ -16,6 +16,10 @@ body {
   display: inline-flex;
 }
 
+.row-reverse{
+  flex-direction: row-reverse;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -38,6 +42,10 @@ body {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .flex-wrap {
