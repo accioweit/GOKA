@@ -155,7 +155,7 @@
 
 .product-review-header {
   margin: 2em 0;
-  height: 3em;
+  height: 2em;
   width: 100%;
   border-radius: 5px;
   border: 1px solid lightgrey;
@@ -164,7 +164,7 @@
 .product-review-header-section-1 {
   color: #ffffff;
   padding: 0 5em;
-  height: 3em;
+  height: 2em;
   background: var(--main-gold-color);
   border-radius: 5px;
   position: relative;
@@ -174,7 +174,7 @@
 .product-review-header-section-2 {
   color: #ffffff;
   padding: 0 5em;
-  height: 3em;
+  height: 2em;
   background: #a9a9a9;
   border-radius: 5px;
   position: relative;

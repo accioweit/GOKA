@@ -11,17 +11,44 @@
 
 .benefits-section {
   background: var(--light-green-color);
+  position: relative;
+}
+
+.benefits-bg {
+  position: absolute;
+  left: -10vw;
+  width: 30vw;
+  bottom: -10vh;
+}
+
+.benefits-item {
+  position: relative;
+  z-index: 6;
+  flex-basis: 30%;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+
+.benefits-item-img {
+  height: 6em;
+  margin: auto;
+}
+
+.benefits-item img {
+  max-width: 5em;
+  max-height: 5em;
+  display: block;
+  margin: auto;
 }
 
 /* POWER SECTION */
 
 .power-section {
   padding-left: 5em;
-  background: lightgray;
 }
 
 .power-desctiption {
-  width: 50vw;
+  flex-basis: 50vw;
 }
 
 .power-image {
@@ -38,12 +65,26 @@
 /* COMPONENTS SECTION */
 
 .components-section {
-  background: lightgray;
+  position: relative;
+  overflow: hidden;
+}
+
+.components-bg {
+  position: absolute;
+  right: -15vw;
+  width: 30vw;
+  bottom: 5vh;
+  transform: rotate(210deg);
 }
 
 .components-description {
   position: relative;
   z-index: 3;
+}
+
+.components-description-title {
+  font-size: 1.1em;
+  margin-bottom: -0.5em;
 }
 
 .components-description hr {
@@ -139,18 +180,32 @@
 
 /* PRODUCT REWIEW SECTION */
 
+.product-reviews-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-reviews-bg {
+  position: absolute;
+  left: -10vw;
+  width: 20vw;
+  bottom: -10vh;
+}
+
 .product-rewiew-header {
   margin: 2em 0;
-  height: 3em;
+  height: 2em;
   width: 100%;
   border-radius: 5px;
   border: 1px solid lightgrey;
+  position: relative;
+  z-index: 5;
 }
 
 .product-rewiew-header-section-1 {
   color: #ffffff;
   padding: 0 5em;
-  height: 3em;
+  height: 2em;
   background: var(--main-green-color);
   border-radius: 5px;
   position: relative;
@@ -160,7 +215,7 @@
 .product-rewiew-header-section-2 {
   color: #ffffff;
   padding: 0 5em;
-  height: 3em;
+  height: 2em;
   background: #a9a9a9;
   border-radius: 5px;
   position: relative;
@@ -178,6 +233,11 @@
   margin-left: 0.5em;
 }
 
+.product-rewiew {
+  position: relative;
+  z-index: 5;
+}
+
 .product-rewiew-image {
   width: 2em;
   height: 2em;
@@ -188,6 +248,8 @@
   font-size: 2em;
   margin-right: 1em;
   margin-top: 0.5em;
+  position: relative;
+  z-index: 5;
 }
 
 .product-rewiew-verified {
@@ -201,4 +263,13 @@
   background: #ededed;
   color: var(--main-gray-color);
   margin-right: 0.5em;
+}
+
+.product-rewiew-buttons img {
+  height: 1em;
+}
+
+.product-subtext-image img {
+  max-width: 2em;
+  margin-bottom: 0.5em;
 }
