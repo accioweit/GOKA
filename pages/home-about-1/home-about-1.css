@@ -23,6 +23,12 @@
 
 /* ABOUT SECTION */
 
+.g-icon {
+  position: absolute;
+  left: -15em;
+  top: 36em;
+}
+
 .about-container-image {
   height: 25vh;
   width: 100%;
