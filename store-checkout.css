@@ -326,3 +326,25 @@
 .store-5-item-button-img img {
   width: 6em;
 }
+
+.payment-logo img {
+  max-width: 2em;
+}
+
+.product-subtext-image img {
+  max-width: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* MODAL */
+
+.modal-store-checkout-container {
+  width: 100%;
+  height: 100%;
+  background-image: url('images/dandelion.jpg');
+}
+
+.modal-store-checkout-title {
+  font-size: 8em;
+  font-family: ArabicBold;
+}

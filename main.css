@@ -60,6 +60,18 @@ body {
   flex-basis: 50%;
 }
 
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.flex-grow-3 {
+  flex-grow: 3;
+}
+
 .border-top-none {
   border-top: none;
 }
@@ -300,6 +312,6 @@ a {
   border-top: 1px solid #ffffff;
 }
 
-.contact-stamp img {
+.contact-stamp img, .guarantee-stamp img {
   max-width: 8vw;
 }

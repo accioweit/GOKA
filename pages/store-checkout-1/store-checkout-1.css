@@ -5,17 +5,13 @@
 
 .header-store-checkout-1-bg {
   height: 60vh;
-  background-image: url('../../images/store-checkout-1-header.png');
+  background-image: url('../../images/store-checkout-1-bg.png');
 }
 
 .store-checkout-1-header-title {
   height: 100%;
   color: #ffffff;
   font-size: 5em;
-}
-
-.store-checkout-1-header-title div {
-  padding: 1em;
 }
 
 .footer-store-checkout-1 {
@@ -28,11 +24,15 @@
 /* ABOUT SECTION */
 
 .about-container-image {
+  height: 25vh;
   width: 100%;
+  position: relative;
+  top: -12vh;
+  margin-bottom: -12vh;
 }
 
 .about-container-image img {
-  height: 100%;
+  max-height: 80%;
   width: auto;
 }
 
@@ -45,15 +45,13 @@
 }
 
 .about-title {
-  margin-top: 2em;
   color: var(--main-green-color);
 }
 
 .about-products-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1px 1px;
-  grid-template-areas: '. .''. .''. .';
+  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+  grid-gap: 10px;
 }
 
 .about-products-container > .about-product {
@@ -61,20 +59,20 @@
   margin: 1em;
 }
 
-.about-product-description-title {
-  font-weight: 600;
-}
-
 .about-product-description {
-  width: 55%;
+  flex-basis: 60%;
+  flex-shrink: 0;
 }
 
-.about-product-image {
-  margin-left: 1em;
+.about-product-description-title {
+  font-size: 1.5em;
 }
 
 .about-product-image img {
-  width: 100%;
+  max-width: 15em;
+  position: relative;
+  left: -4em;
+  top: -1em;
 }
 
 /* GUARANTEE SECTION */
