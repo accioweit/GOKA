@@ -23,12 +23,30 @@
 
 /* ABOUT SECTION */
 
+.about-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-bg-1 {
+  position: absolute;
+  left: -20vw;
+  top: 15vh;
+}
+
+.about-bg-2 {
+  position: absolute;
+  right: -20vw;
+  bottom: -35vh;
+  z-index: 5;
+}
+
 .about-container-image {
   height: 25vh;
   width: 100%;
   position: relative;
-  top: -12vh;
-  margin-bottom: -12vh;
+  bottom: 8vh;
+  margin-bottom: -15vh;
 }
 
 .about-container-image img {
@@ -68,11 +86,57 @@
   font-size: 1.5em;
 }
 
-.about-product-image img {
-  max-width: 15em;
+.about-product-image-container {
   position: relative;
+  width: 15em;
+}
+
+.about-product-image {
+  position: absolute;
+  max-width: 15em;
   left: -4em;
   top: -1em;
+  z-index: 2;
+}
+
+.about-product-bg {
+  position: absolute;
+}
+
+.about-product-bg-1 {
+  max-width: 10em;
+  left: 2em;
+  top: 0;
+}
+
+.about-product-bg-2 {
+  max-height: 9em;
+  left: 4.5em;
+  top: 1em;
+}
+
+.about-product-bg-3 {
+  max-height: 9em;
+  left: 1em;
+  top: 0;
+}
+
+.about-product-bg-4 {
+  max-height: 9em;
+  left: 4em;
+  top: 0;
+}
+
+.about-product-bg-5 {
+  max-height: 7em;
+  left: 1em;
+  top: 2em;
+}
+
+.about-product-bg-6 {
+  max-height: 9em;
+  left: 4em;
+  top: 0em;
 }
 
 /* ABOUT MORE SECTION */
@@ -108,6 +172,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: 3;
 }
 
 /* SERTIFICATION SECTION */
@@ -145,4 +210,18 @@
 
 .contact-items {
   width: 50%;
+}
+
+/* SLIDER SECTION */
+
+.slider-section {
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-bg {
+  position: absolute;
+  right: -10vw;
+  top: -45vh;
 }
