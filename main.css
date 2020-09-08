@@ -190,6 +190,10 @@ footer .container {
   margin: auto;
 }
 
+.margin-auto-vertical {
+  margin: auto 0;
+}
+
 button {
   border: 0;
   color: #ffffff;
