@@ -1,0 +1,316 @@
+@media only screen and (max-width: 1300px) {
+  .about-products-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  .about-products-container > .about-product {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+  }
+  .about-product-image {
+    position: relative;
+  }
+  .about-product-image-container {
+    margin-top: 2em;
+  }
+  .about-more-section .container {
+    width: auto;
+    padding: 1em;
+  }
+  .container,
+  footer .container {
+    padding: 0.5em;
+  }
+  footer .container {
+    justify-content: flex-end;
+  }
+  footer {
+    height: auto;
+    text-align: end;
+  }
+  footer .container div {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container div a {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-logo img,
+  .header-logo-mobile img {
+    max-width: 30vw;
+  }
+  .store-checkout-logo {
+    margin-top: 1em;
+  }
+  .header-menu-container {
+    flex-direction: column;
+  }
+  .header-logo-desktop {
+    display: none;
+  }
+  .header-logo-mobile {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .home-about-1-header-title,
+  .home-about-2-header-title {
+    font-size: 4em;
+  }
+  .about-products-container {
+    display: block;
+  }
+  .store-5-container {
+    flex-direction: column-reverse;
+  }
+  .store-5-item-image img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: -30%;
+  }
+  .store-5-item-button,
+  .store-checkout-information-container {
+    flex-direction: column;
+  }
+  .store-checkout-information-container hr.margin-2 {
+    margin: 1em 0;
+  }
+  .store-5-item-button-container {
+    justify-content: end;
+  }
+  .continue-to-shipping {
+    right: 0;
+  }
+  .return-to-cart {
+    text-align: end;
+  }
+  .contact-section div {
+    flex-direction: column;
+  }
+  .contact-items {
+    width: 100%;
+  }
+  .contact-stamp {
+    margin-right: 0;
+    margin-top: 1em;
+  }
+  .contact-stamp img,
+  .guarantee-stamp img {
+    max-width: 15vw;
+    margin-bottom: 1em;
+  }
+  .contact-logo img {
+    max-width: 15vw;
+  }
+  .rate-us-title {
+    margin: 0;
+  }
+  .rate-us-items {
+    flex-direction: column;
+  }
+  .rate-us-items > div {
+    margin: 0.3em auto;
+    padding: 0;
+    width: auto;
+  }
+  .advertising-block-container {
+    padding: 1em;
+  }
+
+  .benefits-items {
+    flex-direction: column;
+    text-align: center;
+  }
+  .benefits-item {
+    width: auto;
+  }
+  .product-review-header {
+    flex-shrink: 1;
+  }
+  .product-review-header-section-2,
+  .product-review-header-section-1 {
+    padding: 0 3em;
+  }
+  .product-review-header-section-3 {
+    margin: 0;
+    text-align: end;
+  }
+  .product-slider-section {
+    flex-direction: column-reverse;
+  }
+  .product-slider {
+    max-width: 30vh;
+    display: inline-block;
+    margin: auto;
+  }
+  .product-slider-buttons {
+    justify-content: end;
+  }
+  .product-slider-buttons button {
+    margin-left: 1em;
+  }
+  .about-more-section.background-image-position {
+    background-size: 250% auto;
+  }
+  .about-more-description {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .payments-container {
+    flex-direction: column;
+  }
+  .payments-container div {
+    margin: 1em 0;
+  }
+  .home-about-1-header-title,
+  .home-about-2-header-title {
+    font-size: 3em;
+  }
+  .store-5-item-image {
+    top: -3em;
+  }
+  .store-5-item-image img {
+    width: 100%;
+  }
+  .store-checkout-navigation {
+    flex-wrap: wrap;
+  }
+  .store-checkout-navigation div {
+    text-align: end;
+    width: 90%;
+  }
+  .store-checkout-item {
+    flex-wrap: wrap;
+  }
+  .store-checkout-item-image {
+    margin-bottom: 1em;
+  }
+  .store-checkout-item-title,
+  .store-checkout-item-description {
+    margin: 0;
+  }
+  .reviews-container {
+    width: 80%;
+    margin-right: 0;
+  }
+  .navigation-right-border {
+    border-right: none;
+    border-bottom: 3px solid #fff;
+  }
+  .navigation-prev-arrow::after {
+    left: calc(100% - 0.3em);
+    top: -1.1em;
+  }
+  .store-checkout-navigation .border-radius-left {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+  }
+  .store-checkout-navigation .border-radius-right {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+  }
+  .navigavion-active-arrow::after {
+    right: 0;
+  }
+  .store-checkout-info {
+    word-break: break-word;
+  }
+  .return-continue-container {
+    flex-direction: column;
+  }
+  .return-continue-container {
+    margin-bottom: 2em;
+    text-align: end;
+  }
+  .ingredients-section,
+  .power-section,
+  .how-to-use-section {
+    padding: 0;
+  }
+  .power-section {
+    padding-bottom: 1em;
+  }
+  .ingredients-desctiption,
+  .power-desctiption,
+  .how-to-use-desctiption {
+    width: 90%;
+    margin-bottom: 1em;
+    padding: 0;
+  }
+  .ingredients-image,
+  .power-image,
+  .how-to-use-image {
+    width: 100vw;
+    height: 60vw;
+    margin-left: 0;
+  }
+  .ingredients-section div,
+  .power-section div,
+  .how-to-use-section div {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .about-container-image {
+    bottom: 5vh;
+    margin-bottom: -20vh;
+  }
+  .about-container-image img {
+    max-height: 60%;
+  }
+  .footer-home-about-1,
+  .footer-home-about-2,
+  .footer-product-2 {
+    background-size: 500% auto;
+  }
+  .product-review,
+  .product-review-name-date {
+    flex-direction: column;
+    margin: 0.3em 0;
+  }
+  .product-review-header {
+    flex-direction: column;
+    margin-bottom: 4em;
+  }
+  .product-review-header-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-review-header-section-2 {
+    left: 0;
+    margin: 0.1em 0;
+  }
+  .product-review-header-section-3 {
+    margin: 0.5em 0;
+  }
+  .about-more-section.background-image-position {
+    background-size: 300% auto;
+  }
+  .contact-stamp img,
+  .guarantee-stamp img {
+    max-width: 20vw;
+  }
+  .guarantee-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .background-image-position {
+    background-size: 600%;
+  }
+  .about-container-image img {
+    max-height: 40%;
+  }
+  .product-review-header-section-2,
+  .product-review-header-section-1 {
+    padding: 0 1em;
+  }
+}

@@ -6,10 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../../main.css" />
     <link rel="stylesheet" type="text/css" href="../../colors.css" />
     <link rel="stylesheet" type="text/css" href="../../fonts.css" />
-    <script
-      src="https://kit.fontawesome.com/97446b8f60.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" type="text/css" href="../../media.css" />
     <title>Product</title>
   </head>
   <body>
@@ -19,12 +16,16 @@
         <div
           class="header-menu-container flex space-between align-items-center flex-wrap"
         >
+          <div class="header-logo-mobile">
+            <img src="../../images/logo-dark.png" alt="logo" />
+            <div class="gold">طبيعي بشكل كامل ، كُلّ العافية</div>
+          </div>
           <div class="header-menu-item">
             سلّة التّسوق
             <div class="header-menu-badge">2</div>
           </div>
           <div class="header-menu-item">من نحن</div>
-          <div class="header-logo">
+          <div class="header-logo header-logo-desktop">
             <img src="../../images/logo-dark.png" alt="logo" />
             <div class="gold">طبيعي بشكل كامل ، كُلّ العافية</div>
           </div>
@@ -37,9 +38,9 @@
     <!-- PRODUCT SLIDER -->
 
     <section class="container">
-      <div class="flex space-between">
+      <div class="flex space-between product-slider-section">
         <div dir="rtl" class="product-description">
-          <div class="title gold uppercase">
+          <div class="title gold uppercase meta-pro">
             <strong>GARCINIA</strong>
           </div>
           <div>
@@ -51,18 +52,18 @@
           <div class="blue">مُشتري مُؤكّد</div>
           <div>
             
-            تحتوي كبسولات <span class="subtitle">Garcinia</span> الطبيعيّة بالكامل
+            تحتوي كبسولات <span class="meta-pro">Garcinia</span> الطبيعيّة بالكامل
             وسهلة البلع على 5 مُكوّنات قائمة على الأبحاث
             تُعزّز عملية التمثيل الغذائي وتقليل الرّغبة
             الشديدة وتُعزّز فقدان الدهون الصحّي.
           </div>
           <br />
           <div class="gray">السعر الخاص بك :</div>
-          <div class="subtitle">49.95$</div>
-          <div class="flex">
-            <div class="buttons flex align-items-center space-around">
-              <button class="btn-gold">Button</button>
-              <button class="btn-gold">Button</button>
+          <div class="meta-pro">49.95$</div>
+          <div class="flex payments-container">
+            <div class="product-slider-buttons buttons flex align-items-center space-around">
+              <button class="btn-gold">إضافة إلى السّلة</button>
+              <button class="btn-gold">اشتري الآن</button>
             </div>
             <div class="payment-systems">
               <img src="../../images/payment-systems.png" alt="payment-systems">
@@ -84,54 +85,42 @@
 
     <section class="benefits-section">
       <div class="container">
-        <div class="title text-center">
-          <span class="green">
-            فوائد 
-          </span>
+        <div class="title text-center meta-pro">
+          <span class="green"> فوائد </span>
           Garcinia
         </div>
 
         <div class="benefits-items flex flex-wrap space-around" dir="rtl">
           <div class="benefits-item">
-            <div class="benefits-item-icon">
-            </div>
+            <div class="benefits-item-icon"></div>
             <div class="benefits-item-description">
-              يُسرّع عمليّة التمثيل
-              الغذائي ويُعزّز حرق الدّهون
+              يُسرّع عمليّة التمثيل الغذائي ويُعزّز حرق الدّهون
             </div>
           </div>
           <div class="benefits-item">
-            <div class="benefits-item-icon">
-            </div>
+            <div class="benefits-item-icon"></div>
             <div class="benefits-item-description">
-              يُساعد على قمع الشّهية
-              وتجنّب الإفراط في الأكل
+              يُساعد على قمع الشّهية وتجنّب الإفراط في الأكل
             </div>
           </div>
           <div class="benefits-item">
-            <div class="benefits-item-icon">
-            </div>
+            <div class="benefits-item-icon"></div>
             <div class="benefits-item-description">
-              يُخفّض مُستويات الكوليسترول
-              الضارّ ويرفع الكوليسترول الجيّد 
+              يُخفّض مُستويات الكوليسترول الضارّ ويرفع الكوليسترول الجيّد
             </div>
           </div>
           <div class="benefits-item">
-            <div class="benefits-item-icon">
-            </div>
+            <div class="benefits-item-icon"></div>
             <div class="benefits-item-description">
-              · نتيجة لفقدان الوزن ، فإنه يقلل من خطر
-              الإصابة بتصلب الشرايين والنوبات القلبية
-              والسكتة الدماغية ، كما يقلل من ضغط الدم
+              · نتيجة لفقدان الوزن ، فإنه يقلل من خطر الإصابة بتصلب الشرايين
+              والنوبات القلبية والسكتة الدماغية ، كما يقلل من ضغط الدم
             </div>
           </div>
           <div class="benefits-item">
-            <div class="benefits-item-icon">
-            </div>
+            <div class="benefits-item-icon"></div>
             <div class="benefits-item-description">
-              يُؤثّر على التمثيل الغذائي
-              للكربوهيدرات ويمنعه من تحويله
-              إلى دهون في الجسم
+              يُؤثّر على التمثيل الغذائي للكربوهيدرات ويمنعه من تحويله إلى دهون
+              في الجسم
             </div>
           </div>
         </div>
@@ -143,20 +132,14 @@
     <section class="power-section">
       <div class="flex space-between align-items-center">
         <div class="power-desctiption" dir="rtl">
-          <div class="title">
-            <span class="gold">
-              جرّب قُوّة 
-            </span>
+          <div class="title meta-pro">
+            <span class="gold"> جرّب قُوّة </span>
             Garcinia
           </div>
           <div>
-            للحُصول على أفضل النّتائج ، خُذ مُكمّلنا
-            بانتظام .
-            الأسبوع  1: فقدان الدهون
-            يبدأ جسمك في التخلص من الدهون الزائدة
-            وتفقد ما يصل إلى كيلو.
-            الأسبوع 2-3 : لا مزيد من الإفراط في تناول
-            كبح شهيتك وتحسن مزاجك.
+            للحُصول على أفضل النّتائج ، خُذ مُكمّلنا بانتظام . الأسبوع 1: فقدان
+            الدهون يبدأ جسمك في التخلص من الدهون الزائدة وتفقد ما يصل إلى كيلو.
+            الأسبوع 2-3 : لا مزيد من الإفراط في تناول كبح شهيتك وتحسن مزاجك.
             الأسبوع 4 : صحة أفضل
           </div>
         </div>
@@ -175,7 +158,7 @@
 
         <div class="flex justify-center align-items-center">
           <div dir="rtl" class="components-description">
-            <div class="subtitle">Garcinia Cambogia</div>
+            <div class="meta-pro-bold">Garcinia Cambogia</div>
             <br />
             <div class="hr-pointer">
               <hr class="hr-left" />
@@ -198,7 +181,7 @@
             <img src="../../images/product-1-component-2.jpg" alt="product" />
           </div>
           <div dir="rtl" class="components-description">
-            <div class="subtitle">Green tea</div>
+            <div class="meta-pro-bold">Green tea</div>
             <br />
             <div class="hr-pointer">
               <hr />
@@ -218,7 +201,7 @@
 
         <div class="flex justify-center align-items-center">
           <div dir="rtl" class="components-description">
-            <div class="subtitle">Rehmania glutinosa Libosch</div>
+            <div class="meta-pro-bold">Rehmania glutinosa Libosch</div>
             <br />
             <div class="hr-pointer">
               <hr class="hr-left" />
@@ -241,7 +224,7 @@
             <img src="../../images/product-2-component-4.jpg" alt="product" />
           </div>
           <div dir="rtl" class="components-description">
-            <div class="subtitle">Vitamin B1</div>
+            <div class="meta-pro-bold">Vitamin B1</div>
             <br />
             <div class="hr-pointer">
               <hr />
@@ -257,7 +240,7 @@
 
         <div class="flex justify-center align-items-center">
           <div dir="rtl" class="components-description">
-            <div class="subtitle">Vitamin B6</div>
+            <div class="meta-pro-bold">Vitamin B6</div>
             <br />
             <div class="hr-pointer">
               <hr class="hr-left" />
@@ -288,12 +271,10 @@
         <div class="how-to-use-desctiption" dir="rtl">
           <div class="title">كيفيّة الإستعمال</div>
           <div>
-            تُأخذ 2 حبّة مع كأس من الماء , مرّتين في اليوم , مع
-            الوجبات ( في كُلّ مرّة حبّة ) , لاتستعمل أكثر من
-            حبّتين خلال فترة 24 ساعة .
-            لا يجب استخدام المُكمّلات الغذائيّة كبديل لنظام
-            غذائي صحّي ومُتوازن. هذا المُنتج غير مُخصّص
-            لتشخيص أو علاج أو علاج أي مرض .
+            تُأخذ 2 حبّة مع كأس من الماء , مرّتين في اليوم , مع الوجبات ( في
+            كُلّ مرّة حبّة ) , لاتستعمل أكثر من حبّتين خلال فترة 24 ساعة . لا
+            يجب استخدام المُكمّلات الغذائيّة كبديل لنظام غذائي صحّي ومُتوازن.
+            هذا المُنتج غير مُخصّص لتشخيص أو علاج أو علاج أي مرض .
           </div>
         </div>
       </div>
@@ -303,12 +284,12 @@
 
     <section>
       <div class="container">
-        <div class="title text-center">
+        <div class="title text-center meta-pro">
           <strong> Product <span class="gold">reviews</span> </strong>
         </div>
 
         <div class="product-review-header flex space-between">
-          <div>
+          <div class="product-review-header-buttons">
             <div
               class="product-review-header-section-1 flex-inline align-items-center"
             >
@@ -364,16 +345,18 @@
               >
             </div>
             <hr />
-            <div class="product-review-buttons">
+            <div class="product-rewiew-buttons">
               <small>
                 <div class="uppercase gray">1 person found this helpful</div>
-                <button class="uppercase">
-                  <i class="far fa-thumbs-up"></i>&nbsp;helpful
-                </button>
-                <button class="uppercase">
-                  <i class="far fa-thumbs-down" aria-hidden="true"></i>&nbsp;not
-                  helpful
-                </button>
+                <div class="flex margin-top-1">
+                  <button class="uppercase flex align-items-center">
+                    <img src="../../images/like.png" alt="like" />&nbsp;helpful
+                  </button>
+                  <button class="uppercase flex align-items-center">
+                    <img src="../../images/dislike.png" alt="like" />&nbsp;not
+                    helpful
+                  </button>
+                </div>
               </small>
             </div>
           </div>
@@ -382,8 +365,7 @@
     </section>
 
     <!-- CONTACT -->
-    
-  
+
     <section class="contact-section">
       <div class="container flex align-items-start space-between">
         <div dir="rtl" class="contact-items">

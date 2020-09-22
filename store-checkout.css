@@ -305,6 +305,11 @@
   position: relative;
   top: -5em;
 }
+
+.store-5-item-image img {
+  width: 100%;
+}
+
 .write-a-review {
   color: #2086c1;
 }

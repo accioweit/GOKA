@@ -4,6 +4,10 @@ body {
   font-family: Arabic;
 }
 
+.header-logo-mobile {
+  display: none;
+}
+
 .container {
   padding: 2em 5em;
 }
@@ -102,7 +106,6 @@ body {
 
 .header-menu-container > div {
   position: relative;
-  min-width: 6em;
 }
 
 .header-menu-badge {
@@ -117,7 +120,7 @@ body {
   background: red;
   color: #ffffff;
   position: absolute;
-  left: -0.5em;
+  left: -2em;
   top: 0.2em;
   font-family: MetaProBold;
   font-size: 0.6em;
@@ -312,6 +315,7 @@ a {
   border-top: 1px solid #ffffff;
 }
 
-.contact-stamp img, .guarantee-stamp img {
+.contact-stamp img,
+.guarantee-stamp img {
   max-width: 8vw;
 }

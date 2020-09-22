@@ -4,13 +4,14 @@
 }
 
 .header-home-about-2-bg {
+  height: 60vh;
   background-image: url('../../images/home-about-2-header.png');
 }
 
-.header-home-about-2-header-titles {
-  color: #fff;
-  font-size: 7em;
-  padding: 10%;
+.home-about-2-header-title {
+  height: 100%;
+  color: #ffffff;
+  font-size: 6em;
 }
 
 .footer-home-about-2 {

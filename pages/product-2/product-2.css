@@ -6,7 +6,14 @@
   flex-basis: 90%;
   margin-left: 2em;
   height: 60vh;
-  background: var(--main-green-color);
+}
+
+.product-slider img {
+  max-width: 100%;
+}
+
+.buttons {
+  width: 100%;
 }
 
 .benefits-section {
@@ -178,31 +185,17 @@
   background-position: center;
 }
 
-/* PRODUCT REWIEW SECTION */
+/* PRODUCT REVIEW SECTION */
 
-.product-reviews-section {
-  position: relative;
-  overflow: hidden;
-}
-
-.product-reviews-bg {
-  position: absolute;
-  left: -10vw;
-  width: 20vw;
-  bottom: -10vh;
-}
-
-.product-rewiew-header {
+.product-review-header {
   margin: 2em 0;
   height: 2em;
   width: 100%;
   border-radius: 5px;
   border: 1px solid lightgrey;
-  position: relative;
-  z-index: 5;
 }
 
-.product-rewiew-header-section-1 {
+.product-review-header-section-1 {
   color: #ffffff;
   padding: 0 5em;
   height: 2em;
@@ -212,7 +205,7 @@
   z-index: 3;
 }
 
-.product-rewiew-header-section-2 {
+.product-review-header-section-2 {
   color: #ffffff;
   padding: 0 5em;
   height: 2em;
@@ -222,23 +215,18 @@
   left: -15px;
 }
 
-.product-rewiew-header-section-3 {
+.product-review-header-section-3 {
   text-align: right;
   margin-right: 1em;
 }
 
-.product-rewiew-header-section-3 i {
+.product-review-header-section-3 i {
   border-left: 1px solid var(--main-gray-color);
   padding-left: 0.5em;
   margin-left: 0.5em;
 }
 
-.product-rewiew {
-  position: relative;
-  z-index: 5;
-}
-
-.product-rewiew-image {
+.product-review-image {
   width: 2em;
   height: 2em;
   flex-shrink: 0;
@@ -248,11 +236,9 @@
   font-size: 2em;
   margin-right: 1em;
   margin-top: 0.5em;
-  position: relative;
-  z-index: 5;
 }
 
-.product-rewiew-verified {
+.product-review-verified {
   width: 1em;
   height: 1em;
   border: 1px solid var(--main-blue-color);

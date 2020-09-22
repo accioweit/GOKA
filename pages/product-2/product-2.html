@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../../main.css" />
     <link rel="stylesheet" type="text/css" href="../../colors.css" />
     <link rel="stylesheet" type="text/css" href="../../fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../media.css" />
     <title>Product</title>
   </head>
   <body>
@@ -15,12 +16,16 @@
         <div
           class="header-menu-container flex space-between align-items-center flex-wrap"
         >
+          <div class="header-logo-mobile">
+            <img src="../../images/logo-dark.png" alt="logo" />
+            <div class="gold">طبيعي بشكل كامل ، كُلّ العافية</div>
+          </div>
           <div class="header-menu-item">
             سلّة التّسوق
             <div class="header-menu-badge">2</div>
           </div>
           <div class="header-menu-item">من نحن</div>
-          <div class="header-logo">
+          <div class="header-logo header-logo-desktop">
             <img src="../../images/logo-dark.png" alt="logo" />
             <div class="gold">طبيعي بشكل كامل ، كُلّ العافية</div>
           </div>
@@ -33,7 +38,7 @@
     <!-- PRODUCT SLIDER -->
 
     <section class="container">
-      <div class="flex space-between">
+      <div class="flex space-between product-slider-section">
         <div dir="rtl" class="product-description">
           <div class="title green uppercase meta-pro">
             <strong> Detoxlab </strong>
@@ -59,7 +64,9 @@
             <button class="btn-gold">اشتري الآن</button>
           </div>
         </div>
-        <div class="product-slider"></div>
+        <div class="product-slider">
+          <img src="../../images/detoxlab.png" alt="product" />
+        </div>
       </div>
 
       <br />
@@ -80,10 +87,10 @@
       <div class="container">
         <div class="title text-center">
           <span class="green"> فوائد </span
-          ><span class="meta-pro-bold">Detoxlab</span>
+          ><span class="meta-pro">Detoxlab</span>
         </div>
 
-        <div class="flex justify-center">
+        <div class="flex justify-center benefits-items">
           <div class="benefits-item">
             <div class="benefits-item-img">
               <img src="../../images/icon4.png" alt="icon" />
@@ -113,7 +120,7 @@
           </div>
         </div>
 
-        <div class="flex justify-center">
+        <div class="flex justify-center benefits-items">
           <div class="benefits-item">
             <div class="benefits-item-img">
               <img src="../../images/icon7.png" alt="icon" />
@@ -141,7 +148,7 @@
         <div class="power-desctiption" dir="rtl">
           <div class="title">
             <span class="green"> جرّب قوّة </span>
-            <span class="meta-pro-bold"> Detoxlab </span>
+            <span class="meta-pro"> Detoxlab </span>
           </div>
           <div>
             خُذ مُكمّلنا بانتظام وسوف ترى أفضل النتائج في لمح البصر. الأسبوع 1:
@@ -360,33 +367,28 @@
 
     <!-- PRODUCT REWIEWS -->
 
-    <section class="product-reviews-section">
-      <img
-        class="product-reviews-bg"
-        src="../../images/herbs.png"
-        alt="herbs"
-      />
+    <section>
       <div class="container">
-        <div class="title text-center">
-          <strong> Product <span class="green">rewiews</span> </strong>
+        <div class="title text-center meta-pro">
+          <strong> Product <span class="gold">reviews</span> </strong>
         </div>
 
-        <div class="product-rewiew-header flex space-between">
-          <div>
+        <div class="product-review-header flex space-between">
+          <div class="product-review-header-buttons">
             <div
-              class="product-rewiew-header-section-1 flex-inline align-items-center"
+              class="product-review-header-section-1 flex-inline align-items-center"
             >
               المُراجعات
             </div>
             <div
-              class="product-rewiew-header-section-2 flex-inline align-items-center"
+              class="product-review-header-section-2 flex-inline align-items-center"
             >
               الأسئلة
             </div>
           </div>
 
           <div
-            class="product-rewiew-header-section-3 flex-inline align-items-center gray capitalize"
+            class="product-review-header-section-3 flex-inline align-items-center gray capitalize"
           >
             <span class="gold">Sort by:&nbsp;</span>Most resent&nbsp;<i
               class="fas fa-caret-down"
@@ -394,32 +396,32 @@
           </div>
         </div>
 
-        <div class="product-rewiew flex space-between">
+        <div class="product-review flex space-between">
           <div
-            class="product-rewiew-image uppercase flex align-items-center justify-center"
+            class="product-review-image uppercase flex align-items-center justify-center"
           >
             <strong>av</strong>
           </div>
 
           <div>
             <div
-              class="product-rewiew-name-date gray capitalize flex space-between"
+              class="product-review-name-date gray capitalize flex space-between"
             >
               <div>Adsasd acaldsck</div>
               <div>03/11/1111</div>
             </div>
             <div class="blue capitalize">
               <span
-                class="product-rewiew-verified flex-inline justify-center align-items-center"
+                class="product-review-verified flex-inline justify-center align-items-center"
                 >&#10003;</span
               >
               verified buyer
             </div>
-            <div class="product-rewiew-rate green">
+            <div class="product-review-rate gold">
               &#9733;&#9733;&#9733;&#9733;&#9733;
             </div>
-            <div>Rewiew title</div>
-            <div class="product-rewiew-description">
+            <div>review title</div>
+            <div class="product-review-description">
               <small
                 >Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, velit iste unde cum dignissimos facere commodi eum,
