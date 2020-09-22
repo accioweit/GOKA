@@ -41,9 +41,9 @@
       <div class="flex space-between product-slider-section">
         <div dir="rtl" class="product-description">
           <div class="title gold uppercase meta-pro">
-            <strong>GARCINIA</strong>
+            <strong> Garcinia </strong>
           </div>
-          <div>
+          <div class="meta-pro">
             <span class="gold">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.7
           </div>
           <div>
@@ -51,7 +51,6 @@
           </div>
           <div class="blue">مُشتري مُؤكّد</div>
           <div>
-            
             تحتوي كبسولات <span class="meta-pro">Garcinia</span> الطبيعيّة بالكامل
             وسهلة البلع على 5 مُكوّنات قائمة على الأبحاث
             تُعزّز عملية التمثيل الغذائي وتقليل الرّغبة
@@ -60,10 +59,10 @@
           <br />
           <div class="gray">السعر الخاص بك :</div>
           <div class="meta-pro">49.95$</div>
-          <div class="flex payments-container">
-            <div class="product-slider-buttons buttons flex align-items-center space-around">
-              <button class="btn-gold">إضافة إلى السّلة</button>
+          <div class="flex flex-wrap">
+            <div class="margin-auto-vertical">
               <button class="btn-gold">اشتري الآن</button>
+              <button class="btn-gold">إضافة إلى السّلة</button>
             </div>
             <div class="payment-systems">
               <img src="../../images/payment-systems.png" alt="payment-systems">
@@ -76,7 +75,12 @@
       </div>
 
       <br />
+
       <div class="product-subtext gray text-center">
+        <div class="product-subtext-image">
+          <img src="../../images/leaf.png" alt="leaf" />
+        </div>
+        كُلّنا نُبالغ في ذلك أحيانًا
         تُكافح مع كيلوغرامات إضافيّة  قليلة ؟ إنسى حميات البدعة ، فهي لا تعمل .
       </div>
     </section>
@@ -84,43 +88,65 @@
     <!-- BENEFITS -->
 
     <section class="benefits-section">
+      <img class="benefits-bg" src="../../images/3.png" alt="herbs" />
+
       <div class="container">
         <div class="title text-center meta-pro">
           <span class="green"> فوائد </span>
           Garcinia
         </div>
 
-        <div class="benefits-items flex flex-wrap space-around" dir="rtl">
+        <div class="flex justify-center  benefits-items">
           <div class="benefits-item">
-            <div class="benefits-item-icon"></div>
-            <div class="benefits-item-description">
-              يُسرّع عمليّة التمثيل الغذائي ويُعزّز حرق الدّهون
+            <div class="benefits-item-img">
+              <img src="../../images/icon-circle.png" alt="icon-circle" />
+            </div>
+            <div class="text-center">
+              يُسرّع عمليّة التمثيل
+              الغذائي ويُعزّز حرق الدّهون
             </div>
           </div>
+
           <div class="benefits-item">
-            <div class="benefits-item-icon"></div>
-            <div class="benefits-item-description">
-              يُساعد على قمع الشّهية وتجنّب الإفراط في الأكل
+            <div class="benefits-item-img">
+              <img src="../../images/icon-cake.png" alt="icon-cake" />
+            </div>
+            <div class="text-center">
+              يُساعد على قمع الشّهية
+              وتجنّب الإفراط في الأكل
             </div>
           </div>
+
           <div class="benefits-item">
-            <div class="benefits-item-icon"></div>
-            <div class="benefits-item-description">
-              يُخفّض مُستويات الكوليسترول الضارّ ويرفع الكوليسترول الجيّد
+            <div class="benefits-item-img">
+              <img src="../../images/icon-heart.png" alt="icon-heart" />
+            </div>
+            <div class="text-center">
+              يُخفّض مُستويات الكوليسترول
+              الضارّ ويرفع الكوليسترول الجيّد
             </div>
           </div>
+        </div>
+
+        <div class="flex justify-center benefits-items">
           <div class="benefits-item">
-            <div class="benefits-item-icon"></div>
-            <div class="benefits-item-description">
-              · نتيجة لفقدان الوزن ، فإنه يقلل من خطر الإصابة بتصلب الشرايين
-              والنوبات القلبية والسكتة الدماغية ، كما يقلل من ضغط الدم
+            <div class="benefits-item-img">
+              <img src="../../images/icon-heart-beating.png" alt="icon-heart-beating" />
+            </div>
+            <div class="text-center">
+              · نتيجة لفقدان الوزن ، فإنه يقلل من خطرالإصابة بتصلب الشرايين والنوبات القلبية
+              والسكتة الدماغية ، كما يقلل من ضغط الدم
             </div>
           </div>
+
           <div class="benefits-item">
-            <div class="benefits-item-icon"></div>
-            <div class="benefits-item-description">
-              يُؤثّر على التمثيل الغذائي للكربوهيدرات ويمنعه من تحويله إلى دهون
-              في الجسم
+            <div class="benefits-item-img">
+              <img src="../../images/icon-boiling.png" alt="icon-boiling" />
+            </div>
+            <div class="text-center">
+              يُؤثّر على التمثيل الغذائي
+              للكربوهيدرات ويمنعه من تحويله
+              إلى دهون في الجسم
             </div>
           </div>
         </div>
@@ -129,12 +155,15 @@
 
     <!-- POWER -->
 
+
     <section class="power-section">
       <div class="flex space-between align-items-center">
         <div class="power-desctiption" dir="rtl">
-          <div class="title meta-pro">
-            <span class="gold"> جرّب قُوّة </span>
-            Garcinia
+          <div class="title">
+            <span class="gold">
+              جرّب قُوّة
+            </span>
+            <span class="meta-pro-bold"> Garcinia </span>
           </div>
           <div>
             للحُصول على أفضل النّتائج ، خُذ مُكمّلنا بانتظام . الأسبوع 1: فقدان
@@ -142,12 +171,13 @@
             الأسبوع 2-3 : لا مزيد من الإفراط في تناول كبح شهيتك وتحسن مزاجك.
             الأسبوع 4 : صحة أفضل
           </div>
+          <div class="margin-top-1">
+            <button class="btn-red">اشتري الآن</button>
+          </div>
         </div>
 
         <div class="power-image"></div>
       </div>
-      <br />
-      <div class="text-center"><button class="btn-red">Button</button></div>
     </section>
 
     <!-- COMPONENTS -->
@@ -221,7 +251,7 @@
 
         <div class="flex justify-center align-items-center">
           <div class="components-image">
-            <img src="../../images/product-2-component-4.jpg" alt="product" />
+            <img src="../../images/formula-1.png" alt="vitamin-b1" />
           </div>
           <div dir="rtl" class="components-description">
             <div class="meta-pro-bold">Vitamin B1</div>
@@ -252,12 +282,13 @@
             </div>
           </div>
           <div class="components-image">
-            <img src="../../images/product-2-component-5.jpg" alt="product" />
+            <img src="../../images/formula-2.png" alt="vitamin-b2" />
           </div>
         </div>
     </section>
 
     <!-- VIDEO -->
+
     <section>
       <div class="container text-center">VIDEO</div>
     </section>
@@ -265,6 +296,8 @@
     <!-- HOW TO USE -->
 
     <section class="how-to-use-section">
+      <img class="how-to-use-bg" src="../../images/3.png" alt="herbs" />
+
       <div class="flex space-between align-items-center">
         <div class="how-to-use-image"></div>
 

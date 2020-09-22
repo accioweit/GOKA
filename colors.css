@@ -28,3 +28,7 @@
 .light-gray {
   color: var(--light-gray-color);
 }
+
+.red {
+  color: var(--main-red-color);
+}

@@ -13,8 +13,19 @@
   max-width: 100%;
 }
 
-.buttons {
-  width: 100%;
+.product-subtext-image img {
+  max-width: 2em;
+  margin-bottom: 0.5em;
+}
+
+.payment-systems img {
+  max-height: 4em;
+}
+
+.benefits-bg,
+.how-to-use-bg {
+  position: absolute;
+  width: 30vw;
 }
 
 .payment-systems {
@@ -28,28 +39,38 @@
 
 .benefits-section {
   background: var(--light-gold-color);
+  position: relative;
+}
+
+.benefits-bg {
+  left: -15vw;
+  bottom: -10vh;
 }
 
 .benefits-item {
-  display: flex;
-  align-items: center;
+  position: relative;
+  z-index: 6;
+  flex-basis: 30%;
   flex-wrap: wrap;
-  flex-direction: column;
-  width: 30%;
-  margin: 1em 0;
+  margin: 2em;
 }
 
-.benefits-item-icon {
-  width: 100px;
-  height: 100px;
-  background: var(--main-gray-color);
+.benefits-item-img {
+  height: 6em;
+  margin: auto;
+}
+
+.benefits-item img {
+  max-width: 5em;
+  max-height: 5em;
+  display: block;
+  margin: auto;
 }
 
 /* POWER SECTION */
 
 .power-section {
   padding-left: 5em;
-  background: lightgray;
 }
 
 .power-desctiption {
@@ -69,9 +90,27 @@
 
 /* COMPONENTS SECTION */
 
+.components-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.components-bg {
+  position: absolute;
+  right: -15vw;
+  width: 30vw;
+  bottom: 5vh;
+  transform: rotate(210deg);
+}
+
 .components-description {
   position: relative;
   z-index: 3;
+}
+
+.components-description-title {
+  font-size: 1.1em;
+  margin-bottom: -0.5em;
 }
 
 .components-description hr {
@@ -137,6 +176,7 @@
 .how-to-use-section {
   padding-right: 5em;
   background: var(--light-green-color);
+  position: relative;
 }
 
 .how-to-use-desctiption {
@@ -152,6 +192,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.how-to-use-bg {
+  left: -15vw;
+  bottom: -28vh;
 }
 
 /* PRODUCT REVIEW SECTION */

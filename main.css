@@ -193,6 +193,10 @@ footer .container {
   margin: auto;
 }
 
+.margin-auto-vertical {
+  margin: auto 0;
+}
+
 button {
   border: 0;
   color: #ffffff;
@@ -285,6 +289,10 @@ button:focus {
 
 .padding-bottom-2 {
   padding-bottom: 2em;
+}
+
+.font-weight-bold {
+  font-weight: bold;
 }
 
 input:active,

@@ -25,6 +25,24 @@
 
 .about-section {
   background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-bg-1 {
+  max-height: 20em;
+  position: absolute;
+  right: -17vw;
+  bottom: 18vw;
+  z-index: 5;
+}
+
+.about-bg-2 {
+  max-height: 20em;
+  position: absolute;
+  right: -17vw;
+  bottom: 18vw;
+  z-index: 5;
 }
 
 .about-container-image {
@@ -85,18 +103,33 @@
 /* ABOUT MORE SECTION */
 
 .about-more-section {
+  height: 100%;
   background-image: url('../../images/spices.png');
 }
 
 .about-more-section .container {
-  width: 30%;
+  width: 80%;
+}
+
+.about-more-title, .about-more-subtitle {
+  font-size: 3em !important;
 }
 
 .about-more-description {
   margin-bottom: 1em;
+  font-size: 2em;
 }
 
 /* RATE US */
+
+.rate-us-adv-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.rate-us-container {
+  padding: 0 5em 2em 5em;
+}
 
 .rate-us-item {
   width: 30%;
@@ -127,6 +160,11 @@
 .advertising-block-container {
   height: 100%;
   padding: 0 10% 0 50%;
+}
+
+.advertising-block-description {
+  width: 50%;
+  font-size: 1.1em;
 }
 
 /* CONTACT SECTION */

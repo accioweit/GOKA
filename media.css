@@ -161,6 +161,12 @@
     margin: auto;
     margin-bottom: 1em;
   }
+  .guarantee-section {
+    height: 70vh;
+  }
+  .guarantee-container {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -297,8 +303,8 @@
   .guarantee-stamp img {
     max-width: 20vw;
   }
-  .guarantee-container {
-    width: 80%;
+  .guarantee-product-bg {
+    max-width: 30vw;
   }
 }
 

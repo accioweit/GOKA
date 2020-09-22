@@ -29,12 +29,30 @@
 
 /* ABOUT SECTION */
 
+.about-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-bg-1 {
+  position: absolute;
+  left: -20vw;
+  top: 15vh;
+}
+
+.about-bg-2 {
+  position: absolute;
+  right: -20vw;
+  bottom: -35vh;
+  z-index: 5;
+}
+
 .about-container-image {
   height: 25vh;
   width: 100%;
   position: relative;
-  top: -12vh;
-  margin-bottom: -12vh;
+  bottom: 8vh;
+  margin-bottom: -15vh;
 }
 
 .about-container-image img {
@@ -129,7 +147,10 @@
 /* GUARANTEE SECTION */
 
 .guarantee-section {
-  background: var(--light-gold-color);
+  flex-basis: 100%;
+  height: 60vh;
+  position: relative;
+  background: var(--light-green-color);
 }
 
 .guarantee-container {
@@ -138,6 +159,41 @@
 
 .guarantee-description {
   margin-bottom: 1em;
+}
+
+.guarantee-product-bg {
+  position: absolute;
+  max-height: 12em;
+}
+
+.guarantee-product-bg-1 {
+  left: 10em;
+  bottom: 2em;
+}
+
+.guarantee-product-bg-2 {
+  left: 5em;
+  bottom: 1em;
+}
+
+.guarantee-product-bg-3 {
+  left: 0;
+  bottom: 0;
+}
+
+.guarantee-product-bg-4 {
+  right: 10em;
+  bottom: 2em;
+}
+
+.guarantee-product-bg-5 {
+  right: 5em;
+  bottom: 1em;
+}
+
+.guarantee-product-bg-6 {
+  right: 0;
+  bottom: 0;
 }
 
 /* CONTACT SECTION */
