@@ -167,6 +167,9 @@
   .guarantee-container {
     width: 80%;
   }
+  .rate-us-container {
+    padding: 0 1em;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -297,7 +300,7 @@
     margin: 0.5em 0;
   }
   .about-more-section.background-image-position {
-    background-size: 300% auto;
+    background-size: 400% auto;
   }
   .contact-stamp img,
   .guarantee-stamp img {
@@ -305,6 +308,9 @@
   }
   .guarantee-product-bg {
     max-width: 30vw;
+  }
+  .certification-container {
+    width: 80%;
   }
 }
 

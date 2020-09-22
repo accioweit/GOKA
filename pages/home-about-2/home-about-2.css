@@ -81,7 +81,7 @@
 
 .about-product-description-title {
   font-weight: 600;
-  font-size: 2em;
+  /* font-size: 2em; */
 }
 
 .about-product-description {
@@ -103,21 +103,16 @@
 /* ABOUT MORE SECTION */
 
 .about-more-section {
-  height: 100%;
   background-image: url('../../images/spices.png');
+  background-position: bottom;
 }
 
 .about-more-section .container {
   width: 80%;
 }
 
-.about-more-title, .about-more-subtitle {
-  font-size: 3em !important;
-}
-
 .about-more-description {
   margin-bottom: 1em;
-  font-size: 2em;
 }
 
 /* RATE US */
@@ -151,7 +146,6 @@
 /* ADVERTISING BLOCK */
 
 .advertising-block-section {
-  height: 60vh;
   background-image: url('../../images/home-about-2-advertising-block.png');
   background-size: cover;
   background-repeat: no-repeat;

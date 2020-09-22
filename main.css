@@ -12,6 +12,10 @@ body {
   padding: 2em 5em;
 }
 
+.width-100 {
+  width: 100%;
+}
+
 .flex {
   display: flex;
 }
