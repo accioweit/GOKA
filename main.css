@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  padding: 2em 5em;
+  padding: 2em;
 }
 
 .width-100 {
@@ -330,4 +330,8 @@ a {
 .contact-stamp img,
 .guarantee-stamp img {
   max-width: 8vw;
+}
+
+.text-end {
+  text-align: end;
 }

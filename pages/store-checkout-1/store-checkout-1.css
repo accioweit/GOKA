@@ -215,3 +215,8 @@
 .contact-items {
   width: 50%;
 }
+
+.old-price {
+  color: var(--main-gray-color);
+  text-decoration: line-through;
+}
