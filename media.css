@@ -191,7 +191,9 @@
   .back-video-slider-arrow,
   .next-video-slider-arrow,
   .back-slider-arrow,
-  .next-slider-arrow {
+  .next-slider-arrow,
+  .store-checkout-back-slider-arrow,
+  .store-checkout-next-slider-arrow {
     display: none;
   }
   .video-slider-container {
@@ -213,6 +215,12 @@
   .product-slider-navigation > div {
     width: 10vw;
     height: 10vw;
+  }
+  .about-product-image-container {
+    width: auto;
+  }
+  .advertising-block-description {
+    width: 100%;
   }
 }
 
@@ -301,7 +309,7 @@
   .ingredients-image,
   .power-image,
   .how-to-use-image {
-    width: 100vw;
+    width: 100%;
     height: 60vw;
     margin-left: 0;
   }

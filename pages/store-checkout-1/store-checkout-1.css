@@ -20,7 +20,7 @@
   font-size: 5em;
 }
 
-.footer-store-checkout-1 {
+.store-checkout-initial-footer-1 {
   color: #ffffff;
   background-image: url('../../images/store-checkout-1-header.png');
   background-position: bottom;
@@ -74,7 +74,7 @@
 
 .about-products-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));
   grid-gap: 10px;
 }
 
@@ -97,53 +97,6 @@
   width: 15em;
 }
 
-.about-product-image {
-  position: absolute;
-  max-width: 15em;
-  left: -4em;
-  top: -1em;
-  z-index: 2;
-}
-
-.about-product-bg {
-  position: absolute;
-}
-
-.about-product-bg-1 {
-  max-width: 10em;
-  left: 2em;
-  top: 0;
-}
-
-.about-product-bg-2 {
-  max-height: 9em;
-  left: 4.5em;
-  top: 1em;
-}
-
-.about-product-bg-3 {
-  max-height: 9em;
-  left: 1em;
-  top: 0;
-}
-
-.about-product-bg-4 {
-  max-height: 9em;
-  left: 4em;
-  top: 0;
-}
-
-.about-product-bg-5 {
-  max-height: 7em;
-  left: 1em;
-  top: 2em;
-}
-
-.about-product-bg-6 {
-  max-height: 9em;
-  left: 4em;
-  top: 0em;
-}
 /* GUARANTEE SECTION */
 
 .guarantee-section {

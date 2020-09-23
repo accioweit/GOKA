@@ -22,247 +22,292 @@
     </header>
 
     <!-- INFO & SHIPMENT -->
-
-    <section>
-      <div class="container">
-        <div class="store-checkout-navigation uppercase flex justify-center">
-          <div class="navigation-active border-radius-left">الدفع</div>
-          <div
-            class="navigation-prev navigation-prev-arrow navigation-right-border"
-          >
-            شحنة
+    <div class="relative overflow-hidden">
+      <img
+        class="store-checkout-bg store-checkout-bg-3"
+        src="../../images/o.png"
+      />
+      <section>
+        <div class="container">
+          <div class="store-checkout-navigation uppercase flex justify-center">
+            <div class="navigation-active border-radius-left">الدفع</div>
+            <div
+              class="navigation-prev navigation-prev-arrow navigation-right-border"
+            >
+              شحنة
+            </div>
+            <div class="navigation-prev navigation-right-border">معلومات</div>
+            <div class="navigation-prev border-radius-right">بطاقة</div>
           </div>
-          <div class="navigation-prev navigation-right-border">معلومات</div>
-          <div class="navigation-prev border-radius-right">بطاقة</div>
-        </div>
 
-        <div
-          class="container flex justify-center store-checkout-information-container"
-        >
-          <div class="flex-basis-50 margin-top-1">
-            <div class="store-checkout-items">
-              <!-- ITEM -->
-              <div
-                class="flex space-between row-reverse store-checkout-item margin-bottom-1"
-              >
-                <div class="store-checkout-item-image">
-                  <div
-                    class="store-checkout-item-image-badge flex justify-center align-items-center"
-                  >
-                    <div class="meta-pro">1</div>
+          <div
+            class="container flex justify-center store-checkout-information-container"
+          >
+            <div class="flex-basis-50 margin-top-1">
+              <div class="store-checkout-items">
+                <!-- ITEM -->
+                <div
+                  class="flex space-between row-reverse store-checkout-item margin-bottom-1"
+                >
+                  <div class="store-checkout-item-image">
+                    <div
+                      class="store-checkout-item-image-badge flex justify-center align-items-center"
+                    >
+                      <div class="meta-pro">1</div>
+                    </div>
                   </div>
+                  <div dir="rtl">
+                    <div
+                      class="store-checkout-item-title margin-left-1 margin-right-1"
+                    >
+                      title
+                    </div>
+                    <div
+                      class="store-checkout-item-description margin-left-1 margin-right-1"
+                    >
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Obcaecati, eius dicta quidem nesciunt explicabo nobis.
+                      Laborum dolores architecto libero at velit. Quia rem
+                      voluptas facilis neque! Exercitationem eaque magnam ad!
+                    </div>
+                  </div>
+                  <div class="store-checkout-item-price meta-pro">47$</div>
                 </div>
-                <div dir="rtl">
-                  <div
-                    class="store-checkout-item-title margin-left-1 margin-right-1"
-                  >
-                    title
-                  </div>
-                  <div
-                    class="store-checkout-item-description margin-left-1 margin-right-1"
-                  >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati, eius dicta quidem nesciunt explicabo nobis.
-                    Laborum dolores architecto libero at velit. Quia rem
-                    voluptas facilis neque! Exercitationem eaque magnam ad!
-                  </div>
+                <!--  -->
+
+                <hr class="margin-top-1 margin-bottom-1" />
+
+                <div class="flex space-between row-reverse" dir="rtl">
+                  <button class="btn-gold uppercase discount-button">
+                    تطبيق
+                  </button>
+                  <input
+                    class="store-checkout-input margin-left-1"
+                    type="text"
+                    name="discount"
+                    id="discount-code"
+                    placeholder="رمز التخفيض"
+                  />
                 </div>
-                <div class="store-checkout-item-price meta-pro">47$</div>
-              </div>
-              <!--  -->
 
-              <hr class="margin-top-1 margin-bottom-1" />
+                <div
+                  class="flex space-between uppercase margin-top-1"
+                  dir="rtl"
+                >
+                  <div class="store-checkout-subtitle">المجموع الفرعي</div>
+                  <div class="meta-pro">$176</div>
+                </div>
 
-              <div class="flex space-between row-reverse" dir="rtl">
-                <button class="btn-gold uppercase discount-button">
-                  تطبيق
-                </button>
-                <input
-                  class="store-checkout-input margin-left-1"
-                  type="text"
-                  name="discount"
-                  id="discount-code"
-                  placeholder="رمز التخفيض"
-                />
-              </div>
+                <div class="flex space-between" dir="rtl">
+                  <div class="uppercase">الشحن</div>
+                  <div class="opacity-07">محسوب في الخطوة التالية</div>
+                </div>
 
-              <div class="flex space-between uppercase margin-top-1" dir="rtl">
-                <div class="store-checkout-subtitle">المجموع الفرعي</div>
-                <div class="meta-pro">$176</div>
-              </div>
+                <hr class="margin-top-1 margin-bottom-1" />
 
-              <div class="flex space-between" dir="rtl">
-                <div class="uppercase">الشحن</div>
-                <div class="opacity-07">محسوب في الخطوة التالية</div>
-              </div>
-
-              <hr class="margin-top-1 margin-bottom-1" />
-
-              <div
-                class="store-checkout-total-title uppercase flex space-between row-reverse"
-              >
-                <div>مجموع</div>
-                <div>
-                  <span class="meta-pro"> $179 </span>
-                  <span class="opacity-07 store-total-price">usd </span>
+                <div
+                  class="store-checkout-total-title uppercase flex space-between row-reverse"
+                >
+                  <div>مجموع</div>
+                  <div>
+                    <span class="meta-pro"> $179 </span>
+                    <span class="opacity-07 store-total-price">usd </span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <hr class="margin-2" />
+            <hr class="margin-2" />
 
-          <div class="store-checkout-information flex-basis-50 margin-top-1">
-            <div>
-              <div
-                class="store-checkout-info border-radius-left-top border-radius-right-top"
-              >
-                <div class="flex space-between">
-                  <button
-                    class="store-checkout-info-button margin-right-1 green uppercase"
-                  >
-                    تغير
-                  </button>
-                  <div class="flex">
-                    <span
-                      dir="rtl"
-                      class="store-checkout-info-data flex align-items-center opacity-07"
-                    >
-                      client_email@email.com
-                    </span>
-                    <span
-                      dir="rtl"
-                      class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
-                    >
-                      تواصل
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="store-checkout-info border-top-none border-bottom-none"
-              >
-                <div class="flex space-between">
-                  <button
-                    class="store-checkout-info-button margin-right-1 green uppercase"
-                  >
-                    تغير
-                  </button>
-                  <div class="flex">
-                    <span
-                      dir="rtl"
-                      class="store-checkout-info-data flex align-items-center opacity-07"
-                    >
-                      address of client, this is the first line and this is the
-                      second line for address
-                    </span>
-                    <span
-                      dir="rtl"
-                      class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
-                    >
-                      شحن الى
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="store-checkout-info border-radius-left-bottom border-radius-right-bottom"
-              >
-                <div class="flex space-between">
-                  <button
-                    class="store-checkout-info-button margin-right-1 green uppercase"
-                  >
-                    طريقة الشحن
-                  </button>
-                  <div class="flex">
-                    <span
-                      class="store-checkout-info-data flex align-items-center opacity-07"
-                    >
-                      <span class="meta-pro">19.95$</span> - سعر
-                    </span>
-                    <span
-                      dir="rtl"
-                      class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
-                    >
-                      تواصل
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div dir="rtl" class="store-checkout-title margin-top-1">دفع</div>
-              <div dir="rtl" class="store-checkout-description">
-                جميع المعاملات آمنة ومشفرة.
-              </div>
+            <div class="store-checkout-information flex-basis-50 margin-top-1">
               <div>
                 <div
-                  dir="rtl"
-                  class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1"
+                  class="store-checkout-info border-radius-left-top border-radius-right-top"
                 >
-                  <label class="radio-container">
-                    <input
-                      class="form-radio"
-                      name="payment"
-                      type="radio"
-                      value="credit-card"
-                      checked
-                    />
-                    <span class="checkmark"></span>
-                    <span> بطاقة الائتمان (خصم إضافي 10 %). </span>
-                  </label>
-                </div>
-                <div
-                  dir="rtl"
-                  class="store-checkout-input-container store-checkout-information border-top-none border-bottom-none"
-                >
-                  <input
-                    class="store-checkout-input margin-top-1"
-                    type="text"
-                    name="card-number"
-                    id="shipping-address-card-number"
-                    placeholder="رقم البطاقة"
-                  />
-                  <input
-                    class="store-checkout-input margin-top-1"
-                    type="text"
-                    name="card-name"
-                    id="shipping-address-card-name"
-                    placeholder="الاسم الموجود على البطاقة"
-                  />
-                  <div class="flex margin-top-1">
-                    <input
-                      class="store-checkout-input margin-left-1"
-                      type="text"
-                      name="expiraton-date"
-                      id="shipping-address-expiraton-date"
-                      placeholder="تاريخ انتهاء الصلاحية (شهر / سنة)"
-                    />
-                    <input
-                      class="store-checkout-input"
-                      type="password"
-                      name="security-code"
-                      id="shipping-address-security-code"
-                      placeholder="رمز الحماية"
-                    />
+                  <div class="flex space-between">
+                    <button
+                      class="store-checkout-info-button margin-right-1 green uppercase"
+                    >
+                      تغير
+                    </button>
+                    <div class="flex">
+                      <span
+                        dir="rtl"
+                        class="store-checkout-info-data flex align-items-center opacity-07"
+                      >
+                        client_email@email.com
+                      </span>
+                      <span
+                        dir="rtl"
+                        class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
+                      >
+                        تواصل
+                      </span>
+                    </div>
                   </div>
-                  <!-- <input
+                </div>
+
+                <div
+                  class="store-checkout-info border-top-none border-bottom-none"
+                >
+                  <div class="flex space-between">
+                    <button
+                      class="store-checkout-info-button margin-right-1 green uppercase"
+                    >
+                      تغير
+                    </button>
+                    <div class="flex">
+                      <span
+                        dir="rtl"
+                        class="store-checkout-info-data flex align-items-center opacity-07"
+                      >
+                        address of client, this is the first line and this is
+                        the second line for address
+                      </span>
+                      <span
+                        dir="rtl"
+                        class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
+                      >
+                        شحن الى
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="store-checkout-info border-radius-left-bottom border-radius-right-bottom"
+                >
+                  <div class="flex space-between">
+                    <button
+                      class="store-checkout-info-button margin-right-1 green uppercase"
+                    >
+                      طريقة الشحن
+                    </button>
+                    <div class="flex">
+                      <span
+                        class="store-checkout-info-data flex align-items-center opacity-07"
+                      >
+                        <span class="meta-pro">19.95$</span> - سعر
+                      </span>
+                      <span
+                        dir="rtl"
+                        class="store-checkout-info-title margin-right-1 light-gray uppercase flex align-items-center"
+                      >
+                        تواصل
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div dir="rtl" class="store-checkout-title margin-top-1">
+                  دفع
+                </div>
+                <div dir="rtl" class="store-checkout-description">
+                  جميع المعاملات آمنة ومشفرة.
+                </div>
+                <div>
+                  <div
+                    dir="rtl"
+                    class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1"
+                  >
+                    <label class="radio-container">
+                      <input
+                        class="form-radio"
+                        name="payment"
+                        type="radio"
+                        value="credit-card"
+                        checked
+                      />
+                      <span class="checkmark"></span>
+                      <span> بطاقة الائتمان (خصم إضافي 10 %). </span>
+                    </label>
+                  </div>
+                  <div
+                    dir="rtl"
+                    class="store-checkout-input-container store-checkout-information border-top-none border-bottom-none"
+                  >
+                    <input
+                      class="store-checkout-input margin-top-1"
+                      type="text"
+                      name="card-number"
+                      id="shipping-address-card-number"
+                      placeholder="رقم البطاقة"
+                    />
+                    <input
+                      class="store-checkout-input margin-top-1"
+                      type="text"
+                      name="card-name"
+                      id="shipping-address-card-name"
+                      placeholder="الاسم الموجود على البطاقة"
+                    />
+                    <div class="flex margin-top-1">
+                      <input
+                        class="store-checkout-input margin-left-1"
+                        type="text"
+                        name="expiraton-date"
+                        id="shipping-address-expiraton-date"
+                        placeholder="تاريخ انتهاء الصلاحية (شهر / سنة)"
+                      />
+                      <input
+                        class="store-checkout-input"
+                        type="password"
+                        name="security-code"
+                        id="shipping-address-security-code"
+                        placeholder="رمز الحماية"
+                      />
+                    </div>
+                    <!-- <input
                     class="store-checkout-input margin-top-1"
                     type="text"
                     name="phone"
                     id="contact-information-phone"
                     placeholder="phone (optional)"
                   /> -->
+                  </div>
+                </div>
+                <div dir="rtl" class="store-checkout-radio border-bottom-none">
+                  <label class="radio-container">
+                    <input name="payment" type="radio" value="paypal" />
+                    <span class="checkmark"></span>
+                    <span class="payment-logo">
+                      <img src="../../images/paypal.png" alt="paypal" />
+                    </span>
+                  </label>
+                </div>
+                <div
+                  dir="rtl"
+                  class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom"
+                >
+                  <label class="radio-container">
+                    <input
+                      name="payment"
+                      type="radio"
+                      value="cost-on-delivery"
+                    />
+                    <span class="checkmark"></span>
+                    <span> التكلفة عند التسليم </span>
+                  </label>
                 </div>
               </div>
-              <div dir="rtl" class="store-checkout-radio border-bottom-none">
+
+              <div dir="rtl" class="store-checkout-title margin-top-1">
+                عنوان وصول الفواتير
+              </div>
+              <div dir="rtl" class="store-checkout-description">
+                جميع المعاملات آمنة ومشفرة.
+              </div>
+              <div
+                dir="rtl"
+                class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1 border-bottom-none"
+              >
                 <label class="radio-container">
-                  <input name="payment" type="radio" value="paypal" />
+                  <input
+                    name="billing-address"
+                    type="radio"
+                    value="same-as-shipping-address"
+                  />
                   <span class="checkmark"></span>
-                  <span class="payment-logo">
-                    <img src="../../images/paypal.png" alt="paypal" />
-                  </span>
+                  <span> نفس عنوان الشحن </span>
                 </label>
               </div>
               <div
@@ -270,81 +315,134 @@
                 class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom"
               >
                 <label class="radio-container">
-                  <input name="payment" type="radio" value="cost-on-delivery" />
+                  <input
+                    name="billing-address"
+                    type="radio"
+                    value="different-billing-address"
+                  />
                   <span class="checkmark"></span>
-                  <span> التكلفة عند التسليم </span>
+                  <span> استخدم عنوان فاتورة آخر </span>
                 </label>
-              </div>
-            </div>
-
-            <div dir="rtl" class="store-checkout-title margin-top-1">
-              عنوان وصول الفواتير
-            </div>
-            <div dir="rtl" class="store-checkout-description">
-              جميع المعاملات آمنة ومشفرة.
-            </div>
-            <div
-              dir="rtl"
-              class="store-checkout-radio border-radius-left-top border-radius-right-top margin-top-1 border-bottom-none"
-            >
-              <label class="radio-container">
-                <input
-                  name="billing-address"
-                  type="radio"
-                  value="same-as-shipping-address"
-                />
-                <span class="checkmark"></span>
-                <span> نفس عنوان الشحن </span>
-              </label>
-            </div>
-            <div
-              dir="rtl"
-              class="store-checkout-radio border-radius-left-bottom border-radius-right-bottom"
-            >
-              <label class="radio-container">
-                <input
-                  name="billing-address"
-                  type="radio"
-                  value="different-billing-address"
-                />
-                <span class="checkmark"></span>
-                <span> استخدم عنوان فاتورة آخر </span>
-              </label>
-            </div>
-
-            <div
-              class="return-continue-container margin-top-1 flex space-between row-reverse"
-            >
-              <div class="green return-to-cart">
-                <a href="">العودة إلى المعلومات</a>
-                <div class="back-arrow"></div>
               </div>
 
               <div
-                class="pay-now uppercase border-radius-left border-radius-right"
+                class="return-continue-container margin-top-1 flex space-between row-reverse"
               >
-                <a href="">ادفع الآن</a>
+                <div class="green return-to-cart">
+                  <a href="">العودة إلى المعلومات</a>
+                  <div class="back-arrow"></div>
+                </div>
+
+                <div
+                  class="pay-now uppercase border-radius-left border-radius-right"
+                >
+                  <a href="">ادفع الآن</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- SLIDER -->
-
-    <section class="store-checkout-slider-section text-center">
-      <div class="container">SLIDER</div>
-    </section>
-
-    <footer class="footer-store-checkout">
-      <div class="container flex align-items-center uppercase">
-        <div>
-          <a href="">سياسة خاصة</a>
-          <a href="">سياسة الاسترجاع</a>
-          <a href="">شروط الخدمة</a>
+      <!-- SLIDER -->
+      <section class="store-checkout-slider-section">
+        <div
+          class="margin-top-1 margin-bottom-1 text-center arabic-bold gold store-checkout-slider-title"
+        >
+          الأشخاص الذين اشتروا هذا المنتج اشتروا أيضًا
         </div>
-      </div>
-    </footer>
+        <div class="about-products-main-container">
+          <div class="about-products-container">
+            <!-- FLEXA -->
+            <div class="about-product flex space-between">
+              <div
+                dir="rtl"
+                class="about-product-description flex flex-column space-between"
+              >
+                <div class="about-product-description-title meta-pro-bold">
+                  Improved joint flexibility
+                </div>
+                <div class="about-product-description-text">
+                  المفاصل + دعم الحركة يُقلّل من أعراض الألم ويحمي مفاصلك من
+                  الإلتهاب الموضعي 30 كبسولة
+                </div>
+                <div class="margin-top-1">
+                  <button class="btn-gray">اشتري الآن</button>
+                  <button class="btn-gold">تعلّم أكثر</button>
+                </div>
+              </div>
+              <div class="about-product-image-container flexa-img">
+                <img
+                  class="about-product-image"
+                  src="../../images/flexa.png"
+                  alt="item"
+                />
+                <img
+                  class="about-product-bg flexa-bg"
+                  src="../../images/2.png"
+                  alt="bg"
+                />
+              </div>
+            </div>
+
+            <!-- PENIRUM -->
+            <div class="about-product flex space-between">
+              <div
+                dir="rtl"
+                class="about-product-description flex flex-column space-between"
+              >
+                <div class="about-product-description-title meta-pro-bold">
+                  Male virility suport
+                </div>
+                <div class="about-product-description-text">
+                  الرغبة الجنسيّة + مُعزّز الطّاقة يُحسّن الوظائف الجنسيّة
+                  والأداء العقلي ومُستويات الطّاقة 30 كبسولة
+                </div>
+                <div class="margin-top-1">
+                  <button class="btn-gray">اشتري الآن</button>
+                  <button class="btn-gold">تعلّم أكثر</button>
+                </div>
+              </div>
+              <div class="about-product-image-container penirum-img">
+                <img
+                  class="about-product-image"
+                  src="../../images/penirum.png"
+                  alt="item"
+                />
+                <img
+                  class="about-product-bg penirum-bg"
+                  src="../../images/6.png"
+                  alt="bg"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="store-checkout-back-slider-arrow"></div>
+          <div class="store-checkout-next-slider-arrow"></div>
+
+          <div class="slider-navigation flex justify-center align-items-center">
+            <div></div>
+            <div class="slider-navigation-active"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="store-checkout-initial-footer">
+        <div class="container flex align-items-center uppercase">
+          <div>
+            <a href="">سياسة خاصة</a>
+            <a href="">سياسة الاسترجاع</a>
+            <a href="">شروط الخدمة</a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
