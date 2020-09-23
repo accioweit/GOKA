@@ -170,6 +170,22 @@
   .rate-us-container {
     padding: 0 1em;
   }
+  .slider-titles-container {
+    flex-direction: column;
+    width: auto;
+  }
+  .slider-image-container {
+    position: unset;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .slider-name {
+    margin: 0;
+    text-align: center;
+  }
+  .certification-container {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 700px) {
