@@ -335,3 +335,12 @@ a {
 .text-end {
   text-align: end;
 }
+
+.padding-left-10 {
+  padding-left: 10vw;
+}
+
+.product-subtext-image img {
+  max-width: 2em;
+  margin-bottom: 0.5em;
+}

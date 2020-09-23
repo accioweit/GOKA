@@ -143,9 +143,11 @@
     flex-direction: column-reverse;
   }
   .product-slider {
-    max-width: 30vh;
     display: inline-block;
     margin: auto;
+  }
+  .product-slider-navigation {
+    justify-content: center;
   }
   .product-slider-buttons {
     justify-content: end;
@@ -185,6 +187,32 @@
   }
   .certification-container {
     width: auto;
+  }
+  .back-video-slider-arrow,
+  .next-video-slider-arrow,
+  .back-slider-arrow,
+  .next-slider-arrow {
+    display: none;
+  }
+  .video-slider-container {
+    width: 80vw;
+    height: 50vw;
+  }
+  .how-to-use-section {
+    padding-right: 1em;
+  }
+  .product-review-item .align-items-start {
+    flex-direction: column;
+  }
+  .product-rewiew-buttons {
+    padding: 0;
+  }
+  .product-slider-navigation {
+    margin-left: 0;
+  }
+  .product-slider-navigation > div {
+    width: 10vw;
+    height: 10vw;
   }
 }
 

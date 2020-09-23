@@ -65,7 +65,25 @@
           </div>
         </div>
         <div class="product-slider">
-          <img src="../../images/detoxlab.png" alt="product" />
+          <div class="back-slider-arrow"></div>
+          <div class="next-slider-arrow"></div>
+          <div class="flex align-items-center">
+            <img src="../../images/detoxlab.png" alt="product" />
+          </div>
+          <div class="product-slider-navigation flex align-items-start">
+            <div class="flex justify-center align-items-center">
+              <img src="../../images/detoxlab.png" alt="product" />
+            </div>
+            <div class="flex justify-center align-items-center">
+              <img src="../../images/detoxlab.png" alt="product" />
+            </div>
+            <div class="flex justify-center align-items-center">
+              <img src="../../images/detoxlab.png" alt="product" />
+            </div>
+            <div class="flex justify-center align-items-center">
+              <img src="../../images/detoxlab.png" alt="product" />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -343,8 +361,22 @@
     </section>
 
     <!-- VIDEO -->
-    <section>
-      <div class="container text-center">VIDEO</div>
+
+    <section class="video-slider-section">
+      <div class="back-video-slider-arrow"></div>
+      <div class="next-video-slider-arrow"></div>
+
+      <div class="video-slider-container margin-auto">
+        <video src=""></video>
+      </div>
+
+      <div
+        class="video-slider-navigation flex justify-center align-items-center"
+      >
+        <div></div>
+        <div class="video-slider-navigation-active"></div>
+        <div></div>
+      </div>
     </section>
 
     <!-- HOW TO USE -->
@@ -367,10 +399,11 @@
 
     <!-- PRODUCT REWIEWS -->
 
-    <section>
-      <div class="container">
+    <section class="product-review-section">
+      <img class="reviews-bg" src="../../images/herbs.png" alt="herbs" />
+      <div class="container product-review-container">
         <div class="title text-center meta-pro">
-          <strong> Product <span class="gold">reviews</span> </strong>
+          <strong> Product <span class="green">reviews</span> </strong>
         </div>
 
         <div class="product-review-header flex space-between">
@@ -390,61 +423,103 @@
           <div
             class="product-review-header-section-3 flex-inline align-items-center gray capitalize"
           >
-            <span class="gold">Sort by:&nbsp;</span>Most resent&nbsp;<i
+            <span class="green">Sort by:&nbsp;</span>Most resent&nbsp;<i
               class="fas fa-caret-down"
             ></i>
           </div>
         </div>
 
-        <div class="product-review flex space-between">
-          <div
-            class="product-review-image uppercase flex align-items-center justify-center"
-          >
-            <strong>av</strong>
-          </div>
-
-          <div>
-            <div
-              class="product-review-name-date gray capitalize flex space-between"
-            >
-              <div>Adsasd acaldsck</div>
-              <div>03/11/1111</div>
-            </div>
-            <div class="blue capitalize">
-              <span
-                class="product-review-verified flex-inline justify-center align-items-center"
-                >&#10003;</span
-              >
-              verified buyer
-            </div>
-            <div class="product-review-rate gold">
-              &#9733;&#9733;&#9733;&#9733;&#9733;
-            </div>
-            <div>review title</div>
-            <div class="product-review-description">
-              <small
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores, velit iste unde cum dignissimos facere commodi eum,
-                aspernatur cupiditate eveniet veritatis architecto aperiam error
-                officia hic nisi aliquam quae voluptatibus!</small
-              >
-            </div>
-            <hr />
-            <div class="product-rewiew-buttons">
-              <small>
-                <div class="uppercase gray">1 person found this helpful</div>
-                <div class="flex margin-top-1">
-                  <button class="uppercase flex align-items-center">
-                    <img src="../../images/like.png" alt="like" />&nbsp;helpful
-                  </button>
-                  <button class="uppercase flex align-items-center">
-                    <img src="../../images/dislike.png" alt="like" />&nbsp;not
-                    helpful
-                  </button>
+        <div class="product-review">
+          <!-- ITEM -->
+          <div class="product-review-item flex flex-column">
+            <div class="flex align-items-start">
+              <div class="product-rewiew-image-container">
+                <div
+                  class="product-review-image uppercase flex align-items-center justify-center"
+                >
+                  <strong>av</strong>
                 </div>
-              </small>
+              </div>
+              <div>
+                <div
+                  class="product-review-name-date gray capitalize flex space-between"
+                >
+                  <div>Adsasd acaldsck</div>
+                  <div>03/11/1111</div>
+                </div>
+                <div class="blue capitalize">
+                  <span
+                    class="product-review-verified flex-inline justify-center align-items-center"
+                    >&#10003;</span
+                  >
+                  verified buyer
+                </div>
+                <div class="product-review-rate gold">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <div>review title</div>
+                <div class="product-review-description">
+                  <small
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, velit iste unde cum dignissimos facere commodi
+                    eum, aspernatur cupiditate eveniet veritatis architecto
+                    aperiam error officia hic nisi aliquam quae
+                    voluptatibus!</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <hr />
+              <div class="product-rewiew-buttons padding-left-10">
+                <small>
+                  <div class="uppercase gray">1 person found this helpful</div>
+                  <div class="flex margin-top-1">
+                    <button class="uppercase flex align-items-center">
+                      <img
+                        src="../../images/like.png"
+                        alt="like"
+                      />&nbsp;helpful
+                    </button>
+                    <button class="uppercase flex align-items-center">
+                      <img src="../../images/dislike.png" alt="like" />&nbsp;not
+                      helpful
+                    </button>
+                  </div>
+                </small>
+              </div>
+              <hr />
             </div>
           </div>
+        </div>
+        <!--  -->
+        <div class="navigation-container">
+          <div
+            class="meta-pro review-navigation flex justify-center align-items-center"
+          >
+            <div>
+              <div class="back-review-navigation-arrow"></div>
+              <div class="back-review-navigation-arrow-2"></div>
+            </div>
+
+            <div class="review-navigation-item review-navigation-item-active">
+              1
+            </div>
+            <div class="review-navigation-item">2</div>
+            <div class="review-navigation-item">3</div>
+            <div class="review-navigation-item">4</div>
+            <div class="review-navigation-item">5</div>
+
+            <div>
+              <div class="next-review-navigation-arrow"></div>
+              <div class="next-review-navigation-arrow-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center margin-top-1">
+          <button class="btn-red">‫اآلن‬ ‫اشرتي‬</button>
         </div>
       </div>
     </section>
