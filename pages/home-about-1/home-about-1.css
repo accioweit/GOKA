@@ -248,3 +248,8 @@
 .slider-navigation-active {
   background: var(--main-green-color);
 }
+
+.active,
+.dot:hover {
+  background-color: var(--main-green-color);
+}

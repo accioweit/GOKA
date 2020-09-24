@@ -7,9 +7,10 @@
     <link rel="stylesheet" type="text/css" href="../../colors.css" />
     <link rel="stylesheet" type="text/css" href="../../fonts.css" />
     <link rel="stylesheet" type="text/css" href="../../media.css" />
+    <link rel="stylesheet" type="text/css" href="../../slider.css" />
     <title>Product</title>
   </head>
-  <body>
+  <body class="hidden">
     <header>
       <div class="initial-header product-1-initial-header"></div>
       <div class="header-menu">
@@ -37,7 +38,7 @@
 
     <!-- PRODUCT SLIDER -->
 
-    <section class="container">
+    <section class="container slider">
       <div class="flex space-between product-slider-section">
         <div dir="rtl" class="product-description">
           <div class="title gold uppercase meta-pro">
@@ -69,23 +70,32 @@
             </div>
           </div>
         </div>
-        <div class="product-slider">
-          <div class="back-slider-arrow"></div>
-          <div class="next-slider-arrow"></div>
-          <div class="flex align-items-center">
-            <img src="../../images/garcinia.png" alt="product" />
+        <div class="product-slider" id="slider">
+          <div class="back-slider-arrow" onclick="changeSlide(-1)"></div>
+          <div class="next-slider-arrow" onclick="changeSlide(1)"></div>
+          <div class="flex align-items-center product-slider-imgs">
+            <img
+              src="../../images/garcinia.png"
+              alt="product"
+              class="slides fade"
+            />
+            <img
+              src="../../images/detox-v1.png"
+              alt="product"
+              class="slides fade"
+            />
           </div>
           <div class="product-slider-navigation flex align-items-start">
-            <div class="flex justify-center align-items-center">
+            <div
+              class="flex justify-center align-items-center dot"
+              onclick="currentSlide(1)"
+            >
               <img src="../../images/garcinia.png" alt="product" />
             </div>
-            <div class="flex justify-center align-items-center">
-              <img src="../../images/garcinia.png" alt="product" />
-            </div>
-            <div class="flex justify-center align-items-center">
-              <img src="../../images/garcinia.png" alt="product" />
-            </div>
-            <div class="flex justify-center align-items-center">
+            <div
+              class="flex justify-center align-items-center dot"
+              onclick="currentSlide(2)"
+            >
               <img src="../../images/garcinia.png" alt="product" />
             </div>
           </div>
@@ -304,20 +314,23 @@
 
     <!-- VIDEO -->
 
-    <section class="video-slider-section">
-      <div class="back-video-slider-arrow"></div>
-      <div class="next-video-slider-arrow"></div>
+    <section class="video-slider-section" id="video-slider">
+      <div class="back-video-slider-arrow" onclick="changeVideoSlide(-1)"></div>
+      <div class="next-video-slider-arrow" onclick="changeVideoSlide(1)"></div>
 
-      <div class="video-slider-container margin-auto">
+      <div class="video-slides fade video-slider-container margin-auto">
+        <video src=""></video>
+      </div>
+
+      <div class="video-slides fade video-slider-container margin-auto">
         <video src=""></video>
       </div>
 
       <div
         class="video-slider-navigation flex justify-center align-items-center"
       >
-        <div></div>
-        <div class="video-slider-navigation-active"></div>
-        <div></div>
+        <div class="video-dot dot" onclick="currentVideoSlide(1)"></div>
+        <div class="video-dot dot" onclick="currentVideoSlide(2)"></div>
       </div>
     </section>
 
@@ -521,5 +534,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="../../slider.js"></script>
+    <script src="../../video-slider.js"></script>
   </body>
 </html>

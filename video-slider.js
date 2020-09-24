@@ -1,24 +1,22 @@
-let slideIndex = 1;
+let videoSlideIndex = 1;
 
-showSlides = (n) => {
+showVideoSlides = (n) => {
   let i;
-  let slides = document.getElementsByClassName('slides');
+  let slides = document.getElementsByClassName('video-slides');
+  let dots = document.getElementsByClassName('video-dot');
 
-  console.log('slides', slides);
-  let dots = document.getElementsByClassName('dot');
-
-  if (n > slides.length) slideIndex = 1;
-  if (n < 1) slideIndex = slides.length;
+  if (n > slides.length) videoSlideIndex = 1;
+  if (n < 1) videoSlideIndex = slides.length;
 
   for (i = 0; i < slides.length; i++) slides[i].style.display = 'none';
   for (i = 0; i < dots.length; i++)
-    dots[i].className = dots[i].className.replace(' active', '');
+    dots[i].className = dots[i].className.replace(' video-active', '');
 
-  slides[slideIndex - 1].style.display = 'grid';
-  dots[slideIndex - 1].className += ' active';
+  slides[videoSlideIndex - 1].style.display = 'block';
+  dots[videoSlideIndex - 1].className += ' video-active';
 };
 
-detectSwipe = (el, func) => {
+detectVideoSwipe = (el, func) => {
   swipe_det = new Object();
   swipe_det.sX = 0;
   swipe_det.sY = 0;
@@ -74,14 +72,14 @@ detectSwipe = (el, func) => {
   );
 };
 
-swipe = (el, dir) => {
-  dir === 'left' ? changeSlide(1) : changeSlide(-1);
+videoSwipe = (el, dir) => {
+  dir === 'left' ? changeVideoSlide(1) : changeVideoSlide(-1);
 };
 
-changeSlide = (n) => showSlides((slideIndex += n));
+changeVideoSlide = (n) => showVideoSlides((videoSlideIndex += n));
 
-currentSlide = (n) => showSlides((slideIndex = n));
+currentVideoSlide = (n) => showVideoSlides((videoSlideIndex = n));
 
-showSlides(slideIndex);
+showVideoSlides(videoSlideIndex);
 
-detectSwipe('slider', swipe);
+detectVideoSwipe('video-slider', videoSwipe);

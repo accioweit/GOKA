@@ -431,3 +431,13 @@
   height: 40vw;
   background: lightgray;
 }
+
+.active,
+.dot:hover {
+  background-color: var(--main-green-color);
+}
+
+.video-active,
+.dot:hover {
+  background-color: var(--main-green-color);
+}

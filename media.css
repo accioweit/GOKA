@@ -222,6 +222,9 @@
   .advertising-block-description {
     width: 100%;
   }
+  .dot:hover {
+    background-color: transparent;
+  }
 }
 
 @media only screen and (max-width: 700px) {

@@ -2,9 +2,9 @@
   display: none;
 }
 
-.active,
-.dot:hover {
-  background-color: var(--main-green-color);
+.product-slider-imgs > img {
+  height: 30vh;
+  width: auto;
 }
 
 .fade {
