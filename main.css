@@ -2,7 +2,11 @@ body {
   margin: 0;
   font-size: 1.7em;
   font-family: Arabic;
+}
+
+html {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .header-logo-mobile {
@@ -402,4 +406,8 @@ a {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.pointer {
+  cursor: pointer;
 }

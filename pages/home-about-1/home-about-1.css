@@ -170,7 +170,7 @@
   position: relative;
   padding-top: 3em;
   padding-bottom: 3em;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .slider-bg {
