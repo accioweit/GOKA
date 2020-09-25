@@ -72,10 +72,6 @@
     margin: auto;
     margin-bottom: -30%;
   }
-  .store-5-item-button,
-  .store-checkout-information-container {
-    flex-direction: column;
-  }
   .store-checkout-information-container hr.margin-2 {
     margin: 1em 0;
   }
@@ -286,6 +282,10 @@
   }
   .store-checkout-info {
     word-break: break-word;
+  }
+  .store-5-item-button,
+  .store-checkout-information-container {
+    flex-direction: column;
   }
   .return-continue-container {
     flex-direction: column;

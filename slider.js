@@ -4,7 +4,6 @@ showSlides = (n) => {
   let i;
   let slides = document.getElementsByClassName('slides');
 
-  console.log('slides', slides);
   let dots = document.getElementsByClassName('dot');
 
   if (n > slides.length) slideIndex = 1;

@@ -323,8 +323,28 @@
   background-color: #f0f2ea;
 }
 
+.store-5-item-button:focus .active-text {
+  color: var(--main-green-color);
+}
+
+.store-5-item-description {
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+
+.store-5-item-button-descr {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.store-5-item-button-img {
+  max-width: 45%;
+}
+
 .store-5-item-button-img img {
-  width: 6em;
+  width: 100%;
 }
 
 .payment-logo img {

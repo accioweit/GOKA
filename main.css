@@ -41,6 +41,10 @@ html {
   justify-content: space-around;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -51,6 +55,10 @@ html {
 
 .align-items-start {
   align-items: flex-start;
+}
+
+.align-self-center {
+  align-self: center;
 }
 
 .justify-center {
@@ -71,6 +79,10 @@ html {
 
 .flex-basis-50 {
   flex-basis: 50%;
+}
+
+.flex-basis-60 {
+  flex-basis: 60%;
 }
 
 .flex-grow-1 {
@@ -188,6 +200,8 @@ footer .container {
   margin-top: 1em;
   margin-bottom: 1em;
   outline: none;
+  padding: 1em;
+  border: 1px solid #fff;
 }
 
 .contact-section {
@@ -410,4 +424,11 @@ a {
 
 .pointer {
   cursor: pointer;
+}
+
+.btn-submit {
+  border: 1px solid #fff;
+  background: transparent;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
